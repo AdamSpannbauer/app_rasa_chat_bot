@@ -1,0 +1,6797 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "what's up", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi, whats up", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi bot, what's up", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi bot", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "good morning", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "good evening", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "dear sir", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "indeed", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "that's right", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "ok", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "great", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "right, thank you", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "correct", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "great choice", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "sounds really good", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "farewell", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "Bye bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "have a good one", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good day sir", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good day bot", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "good day", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "i'm leaving", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "what apps are doing well", 
+        "intent": "app_rank_search", 
+        "entities": []
+      }, 
+      {
+        "text": "what do the charts look like", 
+        "intent": "app_rank_search", 
+        "entities": []
+      }, 
+      {
+        "text": "who is topping the charts", 
+        "intent": "app_rank_search", 
+        "entities": []
+      }, 
+      {
+        "text": "show me the charts", 
+        "intent": "app_rank_search", 
+        "entities": []
+      }, 
+      {
+        "text": "what is the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "is madden nfl football on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 22, 
+            "value": "madden nfl football", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is snake vs block doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "snake vs block", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is speak & translate - translator doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 37, 
+            "value": "speak & translate - translator", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the tenth most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 31, 
+            "end": 39, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 17, 
+            "value": "tenth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is vsco ranked on the paid chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 28, 
+            "end": 32, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "vsco", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Toon Blast", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 24, 
+            "value": "Toon Blast", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is walmart  shopping and saving", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 37, 
+            "value": "walmart  shopping and saving", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Pixel Art - Color by Number ranked on the Grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 51, 
+            "end": 59, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 36, 
+            "value": "Pixel Art - Color by Number", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 33, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "VSCO's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "VSCO", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Granny Smith", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 21, 
+            "value": "Granny Smith", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is MADDEN NFL Football ranked on the grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 43, 
+            "end": 51, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 28, 
+            "value": "MADDEN NFL Football", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is homescapes", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 19, 
+            "value": "homescapes", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Dunk Line's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 17, 
+            "value": "Dunk Line", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is evony", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 14, 
+            "value": "evony", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is hit it rich! casino slots doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 32, 
+            "value": "hit it rich! casino slots", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is golf clash", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 19, 
+            "value": "golf clash", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is ROBLOX", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 20, 
+            "value": "ROBLOX", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is Assassin's Creed Identity on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 28, 
+            "value": "Assassin's Creed Identity", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is snake vs block on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 17, 
+            "value": "snake vs block", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 60th most popular grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "60th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is My Story: Choose Your Own Path", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 44, 
+            "value": "My Story: Choose Your Own Path", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is trivia crack's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 20, 
+            "value": "trivia crack", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is fluffy fall doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "fluffy fall", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "episode - choose your story's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 27, 
+            "value": "episode - choose your story", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is yahoo mail doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "yahoo mail", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Slots Casino - House of Fun doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 34, 
+            "value": "Slots Casino - House of Fun", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "ROBLOX's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "ROBLOX", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "candy crush saga's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 16, 
+            "value": "candy crush saga", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Solitaire Tripeaks  Card Game", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 38, 
+            "value": "Solitaire Tripeaks  Card Game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is Monument Valley on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 18, 
+            "value": "Monument Valley", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number sixty five grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "sixty five", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Granny Smith", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 21, 
+            "value": "Granny Smith", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number thirty six Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 22, 
+            "value": "Free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "thirty six", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is houseparty", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 19, 
+            "value": "houseparty", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in third place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 20, 
+            "value": "third", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "is Snake VS Block on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 17, 
+            "value": "Snake VS Block", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 34th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "34th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Scribblenauts Unlimited", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 37, 
+            "value": "Scribblenauts Unlimited", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 29th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "29th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is Papa's Cupcakeria To Go! on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 27, 
+            "value": "Papa's Cupcakeria To Go!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is star wars: galaxy of heroes doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 34, 
+            "value": "star wars: galaxy of heroes", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "cashman casino vegas slot game's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 30, 
+            "value": "cashman casino vegas slot game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is CamToPlan PRO", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 22, 
+            "value": "CamToPlan PRO", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 33, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Groupon", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 16, 
+            "value": "Groupon", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "Uber Eats: Food Delivery's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 24, 
+            "value": "Uber Eats: Food Delivery", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Final Fantasy XV: A New Empire", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 39, 
+            "value": "Final Fantasy XV: A New Empire", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in SpongeBob Moves In", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 36, 
+            "value": "SpongeBob Moves In", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Final Fantasy XV: A New Empire's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 38, 
+            "value": "Final Fantasy XV: A New Empire", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is lyft", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "lyft", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is gardenscapes", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 26, 
+            "value": "gardenscapes", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in seventh place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 22, 
+            "value": "seventh", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Live Wallpapers Now", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 28, 
+            "value": "Live Wallpapers Now", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is 8mm Vintage Camera ranked on the free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 42, 
+            "end": 46, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 27, 
+            "value": "8mm Vintage Camera", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 43rd most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "43rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 9th most popular Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 29, 
+            "end": 33, 
+            "value": "Paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 15, 
+            "value": "9th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is ketodiet ranked on the free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 32, 
+            "end": 36, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "ketodiet", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Snapchat ranked on the grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 32, 
+            "end": 40, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "Snapchat", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Stack Jump", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 24, 
+            "value": "Stack Jump", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is marvel contest of champions ranked on the Free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 51, 
+            "end": 55, 
+            "value": "Free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 36, 
+            "value": "marvel contest of champions", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 84th most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "84th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number five paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 11, 
+            "value": "five", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in Pinterest", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 27, 
+            "value": "Pinterest", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 20th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "20th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Target ranked on the paid chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "Target", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 95th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "95th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "full fitness : exercise workout trainer's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 39, 
+            "value": "full fitness : exercise workout trainer", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 100th most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 31, 
+            "end": 39, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 17, 
+            "value": "100th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is OfferUp - Buy. Sell. Simple.", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 37, 
+            "value": "OfferUp - Buy. Sell. Simple.", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Netflix", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 21, 
+            "value": "Netflix", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is NBA 2K18", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "NBA 2K18", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 13th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "13th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is Kick the Buddy on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 17, 
+            "value": "Kick the Buddy", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 77 Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 22, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "77", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is papa's freezeria to go!'s rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 31, 
+            "value": "papa's freezeria to go!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is phase 10 pro doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "phase 10 pro", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Last Day on Earth: Survival", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 41, 
+            "value": "Last Day on Earth: Survival", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is Hulu: Watch TV Shows & Movies on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 32, 
+            "value": "Hulu: Watch TV Shows & Movies", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is CSR Racing 2 ranked on the top grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 36, 
+            "end": 48, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 21, 
+            "value": "CSR Racing 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in fourth place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "fourth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Heads Up!'s rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 17, 
+            "value": "Heads Up!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is 8mm Vintage Camera doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 25, 
+            "value": "8mm Vintage Camera", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is uber ranked on the top grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 28, 
+            "end": 40, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "uber", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "design home's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "design home", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is dropbox's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 15, 
+            "value": "dropbox", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 62 paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "62", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in Afterlight 2", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 30, 
+            "value": "Afterlight 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Flipagram's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 17, 
+            "value": "Flipagram", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in iheartradio", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 29, 
+            "value": "iheartradio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is snake vs block doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "snake vs block", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is SoundCloud - Music & Audio on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 29, 
+            "value": "SoundCloud - Music & Audio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Florence", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 22, 
+            "value": "Florence", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in hotschedules", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 30, 
+            "value": "hotschedules", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in third place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 20, 
+            "value": "third", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 43rd place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "43rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is 1 second everyday: video diary on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 33, 
+            "value": "1 second everyday: video diary", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number 88 grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 18, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "88", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is gmail - email by google's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 31, 
+            "value": "gmail - email by google", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Toca Life: City doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 22, 
+            "value": "Toca Life: City", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "Pocket Build's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "Pocket Build", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 33 grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 18, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "33", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Sandbox Coloring", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Sandbox Coloring", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is goat simulator", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 28, 
+            "value": "goat simulator", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Sky Guide AR's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 20, 
+            "value": "Sky Guide AR", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is adblock doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "adblock", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number 28 Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "Free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "28", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "truck simulator pro europe's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 26, 
+            "value": "truck simulator pro europe", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "five nights at freddy's: sister location's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 40, 
+            "value": "five nights at freddy's: sister location", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Dropbox", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 16, 
+            "value": "Dropbox", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is doubleu casino: vegas slots's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 35, 
+            "value": "doubleu casino: vegas slots", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "Flipagram's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "Flipagram", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 33, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is TonalEnergy Tuner & Metronome", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 38, 
+            "value": "TonalEnergy Tuner & Metronome", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is word crossy - a crossword game", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 44, 
+            "value": "word crossy - a crossword game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Waze Navigation & Live Traffic doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 37, 
+            "value": "Waze Navigation & Live Traffic", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is my baby's beat doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "my baby's beat", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Minecraft's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 17, 
+            "value": "Minecraft", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number 98 paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "98", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number forty eight grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 19, 
+            "end": 27, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "forty eight", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number ten grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 11, 
+            "end": 19, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "ten", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Alto's Odyssey", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 28, 
+            "value": "Alto's Odyssey", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is 8 Ball Pool doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "8 Ball Pool", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "Bring You Home's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 14, 
+            "value": "Bring You Home", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 25 top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 22, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "25", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is big fish casino: slots & games on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 33, 
+            "value": "big fish casino: slots & games", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "VSCO's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 4, 
+            "value": "VSCO", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is LinkedIn on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 11, 
+            "value": "LinkedIn", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "space snake's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 11, 
+            "value": "space snake", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is musical.ly", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 19, 
+            "value": "musical.ly", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Superimpose", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 25, 
+            "value": "Superimpose", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number 63 paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "63", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is tekken doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "tekken", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number 100 Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 11, 
+            "end": 23, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "100", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 19th most popular grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "19th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is sky guide ar", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 26, 
+            "value": "sky guide ar", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 90th most popular Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 42, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "90th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is PlantSnap Plant Identification on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 33, 
+            "value": "PlantSnap Plant Identification", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 53rd most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "53rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "is Pixel Gun 3D on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 15, 
+            "value": "Pixel Gun 3D", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Legendary - Game of Heroes doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 33, 
+            "value": "Legendary - Game of Heroes", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 52nd most popular grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "52nd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is papa's freezeria to go! doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 30, 
+            "value": "papa's freezeria to go!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Facebook ranked on the free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 32, 
+            "end": 36, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "Facebook", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is vsco", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 13, 
+            "value": "vsco", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in fifth place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 20, 
+            "value": "fifth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Baseball Boy! doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "Baseball Boy!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is word swag - cool fonts on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 25, 
+            "value": "word swag - cool fonts", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is the sims freeplay ranked on the paid chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 41, 
+            "end": 45, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 26, 
+            "value": "the sims freeplay", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is google drive", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 26, 
+            "value": "google drive", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number forty one Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 17, 
+            "end": 25, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "forty one", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is R-Play - Remote Play for the PS4 doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 39, 
+            "value": "R-Play - Remote Play for the PS4", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "is DoubleDown Casino Slots & More on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 33, 
+            "value": "DoubleDown Casino Slots & More", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is crunchyroll - everything anime", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 39, 
+            "value": "crunchyroll - everything anime", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in musical.ly", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 28, 
+            "value": "musical.ly", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is tidal", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 14, 
+            "value": "tidal", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 41 paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "41", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is five nights at freddy's: sister location doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 47, 
+            "value": "five nights at freddy's: sister location", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "candy crush jelly saga's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 22, 
+            "value": "candy crush jelly saga", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 30 grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 18, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "30", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 88th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "88th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in tonalenergy tuner & metronome", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 47, 
+            "value": "tonalenergy tuner & metronome", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is minecraft ranked on the Free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 33, 
+            "end": 37, 
+            "value": "Free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "minecraft", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "soundcloud - music & audio's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 26, 
+            "value": "soundcloud - music & audio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 61st most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "61st", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "kick the buddy's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 14, 
+            "value": "kick the buddy", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in twelfth place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 22, 
+            "value": "twelfth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "offerup - buy. sell. simple.'s rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 28, 
+            "value": "offerup - buy. sell. simple.", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is lineage 2: revolution ranked on the paid chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 45, 
+            "end": 49, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 30, 
+            "value": "lineage 2: revolution", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is spotify music doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "spotify music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Earn to Die 2 ranked on the paid chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 37, 
+            "end": 41, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 22, 
+            "value": "Earn to Die 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in sweat: kayla itsines fitness", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 46, 
+            "value": "sweat: kayla itsines fitness", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is the game of life", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "the game of life", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is unicorn - color by number game", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 44, 
+            "value": "unicorn - color by number game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 63rd place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "63rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 36th most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 13, 
+            "end": 14, 
+            "value": "6", 
+            "entity": "rank"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "36th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is roblox's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 14, 
+            "value": "roblox", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in Spotify Music", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 31, 
+            "value": "Spotify Music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number twenty eight paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 20, 
+            "end": 24, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "twenty eight", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number 1 Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 8, 
+            "value": "1", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "Papa's Taco Mia To Go!'s rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 22, 
+            "value": "Papa's Taco Mia To Go!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is google maps - gps navigation's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 36, 
+            "value": "google maps - gps navigation", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 89th most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "89th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is shazam ranked on the free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "shazam", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is iheartradio", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 25, 
+            "value": "iheartradio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is papa's freezeria to go!'s rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 31, 
+            "value": "papa's freezeria to go!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 19th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "19th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in Scribblenauts Unlimited", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 41, 
+            "value": "Scribblenauts Unlimited", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is spotify music", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 22, 
+            "value": "spotify music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is google photos doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "google photos", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is crunchyroll - everything anime", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 39, 
+            "value": "crunchyroll - everything anime", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is live wallpapers now doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 26, 
+            "value": "live wallpapers now", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "ROBLOX's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 6, 
+            "value": "ROBLOX", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is mcdonald's", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 24, 
+            "value": "mcdonald's", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Pandora Music ranked on the top grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 37, 
+            "end": 49, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 22, 
+            "value": "Pandora Music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 100 grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 11, 
+            "end": 19, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "100", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number eleven top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 26, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 13, 
+            "value": "eleven", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number forty six Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 17, 
+            "end": 29, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "forty six", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is LinkedIn on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 11, 
+            "value": "LinkedIn", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Heads Up!", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "Heads Up!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 55th most popular Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "Paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "55th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "hit it rich! casino slots's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 25, 
+            "value": "hit it rich! casino slots", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in jackpot magic slots & casino", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 46, 
+            "value": "jackpot magic slots & casino", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Disney Emoji Blitz - Jafar doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 33, 
+            "value": "Disney Emoji Blitz - Jafar", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is SoundCloud - Music & Audio on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 29, 
+            "value": "SoundCloud - Music & Audio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is new yahtzee with buddies dice's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 37, 
+            "value": "new yahtzee with buddies dice", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is angry birds 2 doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "angry birds 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 90th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "90th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number 75 paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "75", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number 1 grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 17, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 8, 
+            "value": "1", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number fifty-eight top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 19, 
+            "end": 31, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "fifty-eight", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number 48 Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "Free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "48", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is Toca Kitchen 2 on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 17, 
+            "value": "Toca Kitchen 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 32nd place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "32nd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 65th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "65th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 85th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "85th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number 89 top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 22, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "89", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Pandora Music's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 21, 
+            "value": "Pandora Music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 47th most popular Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 42, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "47th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 17th most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 42, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "17th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in True Skate", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 28, 
+            "value": "True Skate", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 33, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Five Nights at Freddy's: Sister Location doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 47, 
+            "value": "Five Nights at Freddy's: Sister Location", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 61st most popular grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "61st", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 28th most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "28th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is iheartradio", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 25, 
+            "value": "iheartradio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is hulu: watch tv shows & movies on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 32, 
+            "value": "hulu: watch tv shows & movies", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number seven Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 13, 
+            "end": 17, 
+            "value": "Free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 12, 
+            "value": "seven", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Wish - Shopping Made Fun", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 38, 
+            "value": "Wish - Shopping Made Fun", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 15th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "15th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is Credit Karma on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 15, 
+            "value": "Credit Karma", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Run Sausage Run!'s rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 24, 
+            "value": "Run Sausage Run!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 25th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "25th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number twenty-six Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 30, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "twenty-six", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "is csr racing 2 on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 15, 
+            "value": "csr racing 2", 
+            "entity": "app"
+          }, 
+          {
+            "start": 14, 
+            "end": 15, 
+            "value": "2", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is Toca Life: Pets on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 18, 
+            "value": "Toca Life: Pets", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in kirakira+", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "kirakira+", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is flipagram on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 12, 
+            "value": "flipagram", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "full fitness : exercise workout trainer's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 39, 
+            "value": "full fitness : exercise workout trainer", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Sing! by Smule", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 23, 
+            "value": "Sing! by Smule", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 70th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "70th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is wish - shopping made fun", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 38, 
+            "value": "wish - shopping made fun", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is 8mm Vintage Camera ranked on the free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 42, 
+            "end": 46, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 27, 
+            "value": "8mm Vintage Camera", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is trivia crack (no ads)'s rank", 
+        "intent": "app_rank_search", 
+        "entities": []
+      }, 
+      {
+        "text": "show me the 26th most popular grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "26th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Sky Guide AR", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 26, 
+            "value": "Sky Guide AR", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is my story: choose your own path's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 38, 
+            "value": "my story: choose your own path", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Helix Jump", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 24, 
+            "value": "Helix Jump", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is full fitness : exercise workout trainer on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 42, 
+            "value": "full fitness : exercise workout trainer", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 54th most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "54th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 91st most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "91st", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is iHeartRadio doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "iHeartRadio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 70th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "70th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is stack jump", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 19, 
+            "value": "stack jump", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 80th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "80th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is wordscapes's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 18, 
+            "value": "wordscapes", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is guns of glory doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "guns of glory", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is slots casino - house of fun", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 41, 
+            "value": "slots casino - house of fun", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is exploding kittens - the official game's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 45, 
+            "value": "exploding kittens - the official game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in messenger", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 27, 
+            "value": "messenger", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is bully: anniversary edition doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 33, 
+            "value": "bully: anniversary edition", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "dance school stories's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 20, 
+            "value": "dance school stories", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "is pokmon go on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 12, 
+            "value": "pokmon go", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in ninth place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 20, 
+            "value": "ninth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is soundcloud - music & audio", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 40, 
+            "value": "soundcloud - music & audio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "Final Fantasy XV: A New Empire's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 30, 
+            "value": "Final Fantasy XV: A New Empire", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is forest - stay focused's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 29, 
+            "value": "forest - stay focused", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "Pandora Music's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 13, 
+            "value": "Pandora Music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "Hulu: Watch TV Shows & Movies's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 29, 
+            "value": "Hulu: Watch TV Shows & Movies", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "Game of Thrones: Conquest's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 25, 
+            "value": "Game of Thrones: Conquest", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 30th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "30th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is My Story: Choose Your Own Path on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 33, 
+            "value": "My Story: Choose Your Own Path", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 33, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Monument Valley 2", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 31, 
+            "value": "Monument Valley 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 33rd most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "33rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is cashman casino vegas slot game's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 38, 
+            "value": "cashman casino vegas slot game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is jackpot magic slots & casino's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 36, 
+            "value": "jackpot magic slots & casino", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 69th most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "69th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is snake vs block doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 21, 
+            "value": "snake vs block", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in Homescapes", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 28, 
+            "value": "Homescapes", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 73rd most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "73rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is big fish casino: slots & games ranked on the Grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 54, 
+            "end": 62, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 39, 
+            "value": "big fish casino: slots & games", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Will it Crush?", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 22, 
+            "value": "Will it Crush?", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 16th most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "16th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 58th most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "58th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 35th most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "35th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number seventy-nine grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 20, 
+            "end": 28, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "seventy-nine", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is minecraft ranked on the top grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 33, 
+            "end": 45, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "minecraft", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 97th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "97th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is xbox on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 7, 
+            "value": "xbox", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "slots: jackpot party casino's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 27, 
+            "value": "slots: jackpot party casino", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is assassin's creed identity", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 39, 
+            "value": "assassin's creed identity", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "the sims freeplay's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 17, 
+            "value": "the sims freeplay", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in slotomania: vegas slots casino", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 48, 
+            "value": "slotomania: vegas slots casino", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is cooking craze- restaurant game on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 33, 
+            "value": "cooking craze- restaurant game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Puzzledom ranked on the Paid chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 33, 
+            "end": 37, 
+            "value": "Paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "Puzzledom", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is HotspotShield VPN & Wifi Proxy", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 44, 
+            "value": "HotspotShield VPN & Wifi Proxy", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "zombieville usa 2's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 17, 
+            "value": "zombieville usa 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in Full Fitness : Exercise Workout Trainer", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 57, 
+            "value": "Full Fitness : Exercise Workout Trainer", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Flipagram", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "Flipagram", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 57 paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "57", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is pokmon go doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "pokmon go", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 50th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "50th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is pokmon go", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "pokmon go", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Toca Life: Pets", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 29, 
+            "value": "Toca Life: Pets", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 90th most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "90th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is war dragons", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 25, 
+            "value": "war dragons", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Getting Over It ranked on the top grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 39, 
+            "end": 51, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Getting Over It", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is nba jam by ea sports doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 27, 
+            "value": "nba jam by ea sports", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is pandora music", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 22, 
+            "value": "pandora music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Township's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 16, 
+            "value": "Township", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 16, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is iheartradio", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 20, 
+            "value": "iheartradio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is papa's cupcakeria to go! on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 27, 
+            "value": "papa's cupcakeria to go!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Walmart  Shopping and Saving ranked on the paid chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 52, 
+            "end": 56, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 37, 
+            "value": "Walmart  Shopping and Saving", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Puzzledom doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Puzzledom", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 37, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in yelp: discover local favorites", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 48, 
+            "value": "yelp: discover local favorites", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is roblox ranked on the grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 15, 
+            "value": "roblox", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 83rd most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "83rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "i'm interested in The Sims FreePlay", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 35, 
+            "value": "The Sims FreePlay", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Lyft's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 12, 
+            "value": "Lyft", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is Wizard of Oz: Casino Slots on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 29, 
+            "value": "Wizard of Oz: Casino Slots", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is Shape Escape 's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 21, 
+            "value": "Shape Escape ", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "trivia crack (no ads)'s rank", 
+        "intent": "app_rank_search", 
+        "entities": []
+      }, 
+      {
+        "text": "number seventy six free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 19, 
+            "end": 23, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "seventy six", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "top free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "number twenty three free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 20, 
+            "end": 24, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "twenty three", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is pokmon go doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "pokmon go", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is Five Nights at Freddy's", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 37, 
+            "value": "Five Nights at Freddy's", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 71st place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "71st", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Afterlight 2 doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 19, 
+            "value": "Afterlight 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is my baby's beat", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 23, 
+            "value": "my baby's beat", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 16th most popular free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "16th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in fourth place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "fourth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number ninety six top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 30, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "ninety six", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 12, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is A Design Kit's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 20, 
+            "value": "A Design Kit", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Fight List 2 - Categories Game", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 39, 
+            "value": "Fight List 2 - Categories Game", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "-'s rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 1, 
+            "value": "-", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is iHeartRadio doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "iHeartRadio", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 43rd most popular Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "Free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "43rd", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "number thirty one Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 30, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 17, 
+            "value": "thirty one", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is monument valley", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "monument valley", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Hear My Baby Heartbeat App ranked on the top grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 50, 
+            "end": 62, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 35, 
+            "value": "Hear My Baby Heartbeat App", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is candy crush jelly saga on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 25, 
+            "value": "candy crush jelly saga", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 59th most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 34, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "59th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 45th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "45th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is Toy Blast doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 16, 
+            "value": "Toy Blast", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is puzzledom ranked on the free chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 33, 
+            "end": 37, 
+            "value": "free", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 18, 
+            "value": "puzzledom", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is papa's taco mia to go! doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 29, 
+            "value": "papa's taco mia to go!", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the seventh most popular Top Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 33, 
+            "end": 45, 
+            "value": "Top Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 19, 
+            "value": "seventh", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is hear my baby heartbeat app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 40, 
+            "value": "hear my baby heartbeat app", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "how is spotify music doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 20, 
+            "value": "spotify music", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what place is hear my baby heartbeat app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 40, 
+            "value": "hear my baby heartbeat app", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "Kim Kardashian: Hollywood's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 25, 
+            "value": "Kim Kardashian: Hollywood", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "number 86 paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 14, 
+            "value": "paid", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 7, 
+            "end": 9, 
+            "value": "86", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in 67th place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 19, 
+            "value": "67th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "how is r-play - remote play for the ps4 doing", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 39, 
+            "value": "r-play - remote play for the ps4", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "where is subway surfers", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 23, 
+            "value": "subway surfers", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "top grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is PlantSnap Plant Identification's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 38, 
+            "value": "PlantSnap Plant Identification", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top Paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "Paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in eighth place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "eighth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "what is true skate's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 18, 
+            "value": "true skate", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the most popular paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 25, 
+            "end": 29, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the 18th most popular Grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 30, 
+            "end": 38, 
+            "value": "Grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 12, 
+            "end": 16, 
+            "value": "18th", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "is zombieville usa 2 on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 20, 
+            "value": "zombieville usa 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "is monument valley 2 on the charts", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 3, 
+            "end": 20, 
+            "value": "monument valley 2", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Pet Rescue Saga ranked on the grossing chart", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 39, 
+            "end": 47, 
+            "value": "grossing", 
+            "entity": "chart"
+          }, 
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Pet Rescue Saga", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what app is in eighth place", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 21, 
+            "value": "eighth", 
+            "entity": "rank"
+          }
+        ]
+      }, 
+      {
+        "text": "where is Part Time UFO", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 9, 
+            "end": 22, 
+            "value": "Part Time UFO", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top grossing app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "grossing", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "Bully: Anniversary Edition's rank", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 0, 
+            "end": 26, 
+            "value": "Bully: Anniversary Edition", 
+            "entity": "app"
+          }
+        ]
+      }, 
+      {
+        "text": "top paid app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 4, 
+            "end": 8, 
+            "value": "paid", 
+            "entity": "chart"
+          }
+        ]
+      }, 
+      {
+        "text": "what is the top Free app", 
+        "intent": "app_rank_search", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "Free", 
+            "entity": "chart"
+          }
+        ]
+      }
+    ], 
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "Chinese", 
+          "Chines", 
+          "chines"
+        ], 
+        "value": "chinese"
+      }
+    ], 
+    "regex_features": [
+      {
+        "pattern": "^hey|^hi", 
+        "name": "greet"
+      }
+    ]
+  }
+}
