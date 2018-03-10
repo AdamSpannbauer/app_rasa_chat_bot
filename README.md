@@ -23,17 +23,20 @@ INPUT
 what is the top grossing app
 INTENT
 {
-  "confidence": 0.9928669244708527, 
+  "confidence": 0.9977449842472739, 
   "name": "app_rank_search"
 }
 ENTITIES
 [
   {
-    "start": 16, 
     "extractor": "ner_crf", 
     "end": 24, 
+    "processors": [
+      "ner_synonyms"
+    ], 
     "value": "grossing", 
-    "entity": "chart"
+    "entity": "chart", 
+    "start": 16
   }
 ]
 
@@ -42,24 +45,59 @@ INPUT
 is Facebook the number 1 free app
 INTENT
 {
-  "confidence": 0.9870900257201192, 
+  "confidence": 0.9964197098221766, 
   "name": "app_rank_search"
 }
 ENTITIES
 [
   {
+    "extractor": "ner_crf", 
+    "end": 11, 
+    "processors": [
+      "ner_synonyms"
+    ], 
+    "value": "facebook", 
+    "entity": "app", 
+    "start": 3
+  }, 
+  {
     "start": 23, 
     "extractor": "ner_crf", 
     "end": 24, 
     "value": "1", 
-    "entity": "rank"
+    "entity": "numrank"
   }, 
   {
-    "start": 25, 
     "extractor": "ner_crf", 
     "end": 29, 
+    "processors": [
+      "ner_synonyms"
+    ], 
     "value": "free", 
-    "entity": "chart"
+    "entity": "chart", 
+    "start": 25
+  }
+]
+
+
+INPUT
+what place is FACEBOOK
+INTENT
+{
+  "confidence": 0.9932378067723432, 
+  "name": "app_rank_search"
+}
+ENTITIES
+[
+  {
+    "extractor": "ner_crf", 
+    "end": 22, 
+    "processors": [
+      "ner_synonyms"
+    ], 
+    "value": "facebook", 
+    "entity": "app", 
+    "start": 14
   }
 ]
 
@@ -68,17 +106,20 @@ INPUT
 how is snapchat doing
 INTENT
 {
-  "confidence": 0.9929394027645182, 
+  "confidence": 0.9988951545995048, 
   "name": "app_rank_search"
 }
 ENTITIES
 [
   {
-    "start": 7, 
     "extractor": "ner_crf", 
     "end": 15, 
+    "processors": [
+      "ner_synonyms"
+    ], 
     "value": "snapchat", 
-    "entity": "app"
+    "entity": "app", 
+    "start": 7
   }
 ]
 
@@ -87,24 +128,30 @@ INPUT
 what is the 50th most popular free app
 INTENT
 {
-  "confidence": 0.9801695837559353, 
+  "confidence": 0.9932065089155045, 
   "name": "app_rank_search"
 }
 ENTITIES
 [
   {
-    "start": 12, 
     "extractor": "ner_crf", 
     "end": 16, 
+    "processors": [
+      "ner_synonyms"
+    ], 
     "value": "50th", 
-    "entity": "rank"
+    "entity": "ordrank", 
+    "start": 12
   }, 
   {
-    "start": 30, 
     "extractor": "ner_crf", 
     "end": 34, 
+    "processors": [
+      "ner_synonyms"
+    ], 
     "value": "free", 
-    "entity": "chart"
+    "entity": "chart", 
+    "start": 30
   }
 ]
 
@@ -113,7 +160,7 @@ INPUT
 hi bot, what's up
 INTENT
 {
-  "confidence": 0.749778887224602, 
+  "confidence": 0.7546324720145146, 
   "name": "greet"
 }
 ENTITIES
@@ -124,9 +171,17 @@ INPUT
 good day sir
 INTENT
 {
-  "confidence": 0.7564126177361334, 
+  "confidence": 0.7648636001610601, 
   "name": "goodbye"
 }
 ENTITIES
-[]
+[
+  {
+    "start": 0, 
+    "extractor": "ner_crf", 
+    "end": 12, 
+    "value": "good day sir", 
+    "entity": "app"
+  }
+]
 ```
