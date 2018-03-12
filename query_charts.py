@@ -10,6 +10,7 @@ from fuzzywuzzy import fuzz
 input_phrase = u'show me the first most popular games app'
 # input_phrase = u'what rank is facebook'
 # input_phrase = u'how is snapchat doing'
+# input_phrase = u'what rank is candy crush'
 # input_phrase = u'what is the 50th most popular free app'
 
 def fuzzy_match_ents(ents, choices, limit=2, thresh=80):
@@ -99,9 +100,27 @@ if len(df_list) > 1:
 else:
 	filt_inds = set(df_list[0].index)
 
+query_result = app_data.iloc[list(filt_inds), ]
+query_result = query_result.sort_values(by=['app','rank'])
+
+if query_result.shape[0] > 0:
+	response_statements = []
+	for i, row in query_result.iterrows():
+		response_i = '{app} is ranked {rank} among {chart} in the {genre} genre'
+		response_i = response_i.format(
+			app=row['app'], 
+			rank=row['rank'], 
+			chart=row['chart'],
+			genre=row['genre'])
+		response_statements.append(response_i)
+	response = '\n'.join(response_statements)
+else:
+	response = "i couldn't find anything related to you app search"
+
 print("INPUT PHRASE")
 print(input_phrase)
 print("\nQUERY RESULT")
-print(app_data.iloc[list(filt_inds), ])
-
-
+print(query_result)
+print("\nRESPONSE")
+print(response)
+print("\n\n")
