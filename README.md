@@ -15,7 +15,9 @@
 	* [`train_rasa.py`](train_rasa.py) (generic train script from rasa docs)
 
 #### Example Output at Current State
-* Current state uses the rasa nlu model to query the app chart data.  this process is done in [`query_charts.py`](query_charts.py)
+* Current state uses the rasa nlu model to query the app chart data and put into a generic tempated response
+	* the generic template is: `'{app} is ranked {rank} among {chart} in the {genre} genre'`
+	* this process is done in [`query_charts.py`](query_charts.py)
 * Example output
 
 <p align='center'><img src='readme/query_results.png' width=60%></p>
