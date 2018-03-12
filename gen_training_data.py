@@ -2,8 +2,8 @@ import json
 import pandas as pd
 import random
 import re
-import utils.numbers
-from utils.traindata import create_ent_entry, replace_params
+import apputils.gennumbers
+from apputils.traindata import create_ent_entry, replace_params
 
 
 ###################################
@@ -13,15 +13,17 @@ charts = ['free', 'paid', 'grossing', 'top grossing']
 
 #read in our app data to get names from it
 app_data = pd.read_csv('data/app_chart_data.csv')
-app_names = list(set(app_data['name']))
+app_names = list(set(app_data['app']))
+
+genres = list(set(app_data['genre']))
 
 #generate valid chart ranks in number (1) and word (one) forms
 numranks = [str(x) for x in range(1,101)]
-numranks_str = utils.numbers.word_nums_100()
+numranks_str = apputils.gennumbers.word_nums_100()
 numranks.extend(numranks_str)
 
 #generate ordinal ranks in number (1st) and word forms (first)
-ordranks = utils.numbers.ordinal_nums_100()
+ordranks = apputils.gennumbers.ordinal_nums_100()
 ordranks_str = [
 'first','second','third','fourth','fifth',
 'sixth','seventh','eighth','ninth','tenth',
@@ -32,7 +34,8 @@ ordranks.extend(ordranks_str)
 param_values = {'chart': charts, 
 				'app': app_names,
 				'numrank': numranks,
-				'ordrank': ordranks}
+				'ordrank': ordranks,
+				'genre': genres}
 #-----------------------------------------------------------
 
 ###################################
@@ -51,8 +54,12 @@ for k, ents in param_values.items():
 # DEFINE PHRASES
 ###################################
 param_phrases = [
+'what is the most popular {genre} app',
+'what is the most popular {genre}',
+'what is the most popular {chart} {genre} app',
 'what is the most popular {chart} app',
 'show me the {ordrank} most popular {chart} app',
+'show me the {ordrank} most popular {genre} app',
 'what is the top {chart} app',
 'what place is {app}',
 'where is {app} ranked on the {chart} chart',
@@ -61,11 +68,13 @@ param_phrases = [
 'is {app} on the charts',
 'how is {app} doing',
 "i'm interested in {app}",
+"i'm interested in {genre}",
 'what app is in {ordrank} place',
 'top {chart} app',
 'number {numrank} {chart} app',
 "{app}'s rank",
 "what is {app}'s rank",
+'are {genre} apps higher ranked than {genre} apps',
 'is {app} ranked higher than {app} on the {chart} chart',
 'is {app} higher ranked on the {chart} chart or the {chart} chart',
 'is {app} ranked lower than {app}',

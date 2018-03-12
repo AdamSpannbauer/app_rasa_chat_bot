@@ -1,0 +1,16 @@
+{
+  "dimensions": [
+    "amount-of-money", 
+    "distance", 
+    "duration", 
+    "email", 
+    "number", 
+    "ordinal", 
+    "phone-number", 
+    "temperature", 
+    "time", 
+    "timezone", 
+    "url", 
+    "volume"
+  ]
+}

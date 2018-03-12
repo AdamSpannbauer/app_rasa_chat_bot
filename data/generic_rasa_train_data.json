@@ -174,6 +174,21 @@
         "entities": []
       },
       {
+        "text": "goodbye, have a good day sir",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye, have a good day ma'am",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "thanks, goodbye bot",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
         "text": "good day bot",
         "intent": "goodbye",
         "entities": []
@@ -186,6 +201,115 @@
       {
         "text": "i'm leaving",
         "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place to eat",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "I want to grab lunch",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "I am searching for a dinner spot",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place in the north of town",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "show me chinese restaurants",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "show me chines restaurants in the north",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "show me a mexican place in the centre", 
+        "intent": "None", 
+        "entities": []
+      },
+      {
+        "text": "i am looking for an indian spot called olaolaolaolaolaola",
+        "intent": "None",
+        "entities": []
+      },     {
+        "text": "search for restaurants",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "anywhere in the west",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "anywhere near 18328",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "I am looking for asian fusion food",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "I am looking a restaurant in 29432",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "I am looking for mexican indian fusion",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "central indian restaurant",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "Niels Bohr and John Archibald Wheeler applied the liquid drop model of the atomic nucleus to explain the mechanism of nuclear fission",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "As the experimental physicists studied fission, they uncovered puzzling results.",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "George Placzek asked Bohr why uranium seemed to fission with both fast and slow neutrons.",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "Walking to a meeting with Wheeler, Bohr had an insight that the fission at low energies was due to the uranium-235 isotope, while at high energies it was mainly due to the far more abundant uranium-238 isotope.",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "Gaseous diffusion is based on Graham's law, which states that the rate of effusion of a gas through a porous barrier is inversely proportional to the square root of the gas's molecular mass.",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "Booth, Dunning and von Grosse investigated the gaseous diffusion process.",
+        "intent": "None",
+        "entities": []
+      },
+      {
+        "text": "Gaseous diffusion had been used to separate isotopes before.",
+        "intent": "None",
         "entities": []
       }
     ]

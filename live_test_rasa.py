@@ -14,21 +14,14 @@ config = RasaNLUConfig(cmdline_args = args)
 # where `model_directory points to the folder the model is persisted in
 interpreter = Interpreter.load(model_path, config)
 
-test_phrases = [
-u'what is the top grossing app',
-u'is Facebook the number 1 free app',
-u'what place is FACEBOOK',
-u'how is snapchat doing',
-u'what is the 50th most popular free app',
-u"hi bot, what's up",
-u'good day sir'
-]
+while True:
+	user_input = unicode(raw_input("USER: "))
 
-for phrase in test_phrases:
-	parsed = interpreter.parse(phrase)
+	if user_input.lower() == 'exit':
+		break
 
-	print('INPUT')
-	print(parsed['text'])
+	parsed = interpreter.parse(user_input)
+
 	print('INTENT')
 	print(json.dumps(parsed['intent'], indent=2))
 	print('ENTITIES')
