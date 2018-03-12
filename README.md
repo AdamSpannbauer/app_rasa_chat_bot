@@ -18,4 +18,4 @@
 * Current state uses the rasa nlu model to query the app chart data.  this process is done in [`query_charts.py`](query_charts.py)
 * Example output
 
-<p align='center'><img src='readme/query_results.png'></p>
+<p align='center'><img src='readme/query_results.png' width=60%></p>
