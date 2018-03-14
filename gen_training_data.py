@@ -1,7 +1,4 @@
-import json
 import pandas as pd
-import random
-import re
 import utils.gennumbers as num
 import utils.traindata as train
 
