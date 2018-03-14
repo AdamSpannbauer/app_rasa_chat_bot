@@ -115,7 +115,7 @@ for phrase in non_param_phrases:
 ###################################
 # CREATE ENTRIES FOR PARAMED PHRASES
 ###################################
-for i in range(2500):
+for i in range(5000):
 	#choose a random phrase to fill in
 	param_phrase = random.choice(param_phrases)
 	end_punct = random.choice(['','.','?'])

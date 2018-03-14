@@ -117,7 +117,7 @@ def respond(message, interpreter, app_data_path, rank_dict):
 				response_statements = []
 
 				for i, row in query_result.iterrows():
-					response_i = '{app} is ranked {rank} among {chart} in the {genre} genre'
+					response_i = '{app} is a {genre} app ranked {rank} on the {chart} chart'
 					response_i = response_i.format(
 						app=row['app'], 
 						rank=row['rank'], 
