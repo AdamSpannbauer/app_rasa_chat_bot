@@ -1,0 +1,39 @@
+is {app} higher ranked on the {chart} chart or the {chart} chart
+what is the most popular {genre} app
+what is the most popular {genre}
+what is the most popular {chart} {genre} app
+what is the most popular {chart} app
+show me the {ordrank} most popular {chart} app
+show me the {ordrank} most popular {genre} app
+what is the top {chart} app
+what place is {app}
+where is {app} ranked on the {chart} chart
+show me the top {chart} app
+where is {app}
+is {app} on the charts
+how is {app} doing
+i'm interested in {app}
+i'm interested in {genre}
+what app is in {ordrank} place
+top {chart} app
+number {numrank} {chart} app
+{app}'s rank
+what is {app}'s rank
+are {genre} apps higher ranked than {genre} apps
+is {app} ranked higher than {app} on the {chart} chart
+is {app} ranked lower than {app}
+is {app} the number {numrank} {chart} app
+number {numrank} {genre} app
+tell me about {app}
+what app is in {ordrank}
+what {chart} app is in {ordrank}
+who is in {ordrank}
+who is in {ordrank} for {genre}
+what are the top ranked {genre} apps
+what {genre} are popular
+{app} rank
+what apps are rank {numrank
+what apps are doing well
+what do the charts look like
+who is topping the charts
+show me the charts

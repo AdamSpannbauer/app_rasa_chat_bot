@@ -1,35 +1,44 @@
+import glob
+import utils.bot
+from utils.downloader import download_charts
 from rasa_nlu.model import Interpreter
 from rasa_nlu.config import RasaNLUConfig
-import json
-import glob
-from apputils.downloader import download_charts
-import bot
 
+#read in most recent model build
 model_dirs = sorted(glob.glob('./rasa_model/default/model_*/'))
 model_path = model_dirs[-1]
 
-#spacy_sklearn
+#define config
 args = {'pipeline': 'spacy_sklearn'}
-
 config = RasaNLUConfig(cmdline_args = args)
 
 # where `model_directory points to the folder the model is persisted in
 interpreter = Interpreter.load(model_path, config)
 
-rank_trans_dict = bot.gen_rank_translation()
-# download_charts('data/app_chart_data.csv')
+#update chart data.. use back up data if error
+try:
+	app_data_path = 'data/app_chart_data.csv'
+	download_charts(app_data_path)
+except:
+	print('using backup app data')
+	app_data_path = 'data/backup_app_chart_data.csv'
+
 #--------------------------------------------------
 
+#loop forever
 while True:
+	#prompt and read in user input
 	user_input = unicode(raw_input("USER: "))
 
+	#exit if prompted by user
 	if user_input.lower() == 'exit':
 		break
 
-	response = bot.respond(user_input, 
-						   interpreter, 
-						  'data/app_chart_data.csv', 
-						   rank_trans_dict)
+	#generate response
+	response = utils.bot.respond(user_input, 
+							     interpreter, 
+						  		 app_data_path)
 
+	#print response
 	print('BOT: {}\n'.format(response))
 	

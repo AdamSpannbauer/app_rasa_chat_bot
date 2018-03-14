@@ -2,9 +2,16 @@ import json
 import pandas as pd
 import random
 import re
-import apputils.gennumbers
-from apputils.traindata import create_ent_entry, replace_params, escape_punct
+import utils.gennumbers as num
+import utils.traindata as train
 
+###################################
+# READ IN PHRASES WITH BLANKS TO FILL IN
+###################################
+with open('data/app_rank_search_phrases.txt') as f:
+	phrases = f.readlines()
+	phrases = [p.strip() for p in phrases]
+#-----------------------------------------------------------
 
 ###################################
 # DEFINE DATA TO RANDOMLY FILL IN PHRASE BLANKS
@@ -19,11 +26,11 @@ genres = list(set(app_data['genre']))
 
 #generate valid chart ranks in number (1) and word (one) forms
 numranks = [str(x) for x in range(1,101)]
-numranks_str = apputils.gennumbers.word_nums_100()
+numranks_str = num.word_nums_100()
 numranks.extend(numranks_str)
 
 #generate ordinal ranks in number (1st) and word forms (first)
-ordranks = apputils.gennumbers.ordinal_nums_100()
+ordranks = num.ordinal_nums_100()
 ordranks_str = [
 'first','second','third','fourth','fifth',
 'sixth','seventh','eighth','ninth','tenth',
@@ -31,150 +38,22 @@ ordranks_str = [
 ]
 ordranks.extend(ordranks_str)
 
-param_values = {'chart': charts, 
-				'app': app_names,
-				'numrank': numranks,
-				'ordrank': ordranks,
-				'genre': genres}
+ent_dict = {'chart': charts, 
+			'app': app_names,
+			'numrank': numranks,
+			'ordrank': ordranks,
+			'genre': genres}
 #-----------------------------------------------------------
 
 ###################################
-# SYNONYM AND REGEX FEATURE CREATION
+# GENERATE RASA TRAIN DATA
 ###################################
-syns_entry = []
-regex_entry = []
+syn_data, regex_data = train.create_syn_and_regex(ent_dict)
 
-for k, ents in param_values.items():
-	for ent in ents:
-		syns = list(set([ent, ent.lower(), ent.upper(), ent.title()]))
-		syn_entry = {'value': ent.lower(),
-					 'synonyms': syns}
-		reg_entry = [{'name': k, 'pattern': escape_punct(e)} for e in syns]
-		syns_entry.append(syn_entry)
-		regex_entry.extend(reg_entry)
-#-----------------------------------------------------------
+phrase_data = train.fill_in_phrases(phrases, 'app_rank_search', ent_dict, n=5000)
 
-###################################
-# DEFINE PHRASES
-###################################
-param_phrases = [
-'what is the most popular {genre} app',
-'what is the most popular {genre}',
-'what is the most popular {chart} {genre} app',
-'what is the most popular {chart} app',
-'show me the {ordrank} most popular {chart} app',
-'show me the {ordrank} most popular {genre} app',
-'what is the top {chart} app',
-'what place is {app}',
-'where is {app} ranked on the {chart} chart',
-'show me the top {chart} app',
-'where is {app}',
-'is {app} on the charts',
-'how is {app} doing',
-"i'm interested in {app}",
-"i'm interested in {genre}",
-'what app is in {ordrank} place',
-'top {chart} app',
-'number {numrank} {chart} app',
-"{app}'s rank",
-"what is {app}'s rank",
-'are {genre} apps higher ranked than {genre} apps',
-'is {app} ranked higher than {app} on the {chart} chart',
-'is {app} higher ranked on the {chart} chart or the {chart} chart',
-'is {app} ranked lower than {app}',
-'is {app} the number {numrank} {chart} app',
-'number {numrank} {genre} app',
-'tell me about {app}',
-'what app is in {ordrank}',
-'what {chart} app is in {ordrank}',
-'who is in {ordrank}',
-'who is in {ordrank} for {genre}',
-'what are the top ranked {genre} apps',
-'what {genre} are popular',
-'{app} rank',
-'what apps are rank {numrank}'
-]
-
-non_param_phrases = [
-"what apps are doing well",
-"what do the charts look like",
-"who is topping the charts",
-"show me the charts"
-]
-#-----------------------------------------------------------
-
-###################################
-# CREATE ENTRIES FOR GENERIC PHRASES
-###################################
-full_phrases_out = []
-for phrase in non_param_phrases:
-	phrase_dict = {
-		"text": phrase,
-		"intent": "app_rank_search",
-		"entities": []
-	}
-	full_phrases_out.append(phrase_dict)
-#-----------------------------------------------------------
-
-###################################
-# CREATE ENTRIES FOR PARAMED PHRASES
-###################################
-for i in range(5000):
-	#choose a random phrase to fill in
-	param_phrase = random.choice(param_phrases)
-	end_punct = random.choice(['','.','?'])
-	param_phrase = param_phrase + end_punct
-	
-	replacements = {}
-	for k, v in param_values.items():
-		param_phrase, replaced = replace_params(
-			param_phrase, '{'+k+'}', v)
-		replacements[k] = replaced
-	
-	ents_entry = []
-	for k, v in replacements.items():
-		for ent in v:
-			entry = create_ent_entry(param_phrase, ent, k)
-			ents_entry.extend(entry)
-
-	#create json entry for tagged phrase
-	phrase_dict = {
-		"text": param_phrase,
-		"intent": "app_rank_search",
-		"entities": ents_entry
-	}
-	full_phrases_out.append(phrase_dict)
-#-----------------------------------------------------------
-
-###################################
-# CREATE NEW TRAINING DATA FILE
-###################################
-#read in generic file
-with open('data/generic_rasa_train_data.json') as f:
-	generic_data = json.load(f)
-
-#add our phrases to generic phrases
-phrases = generic_data['rasa_nlu_data']['common_examples']
-phrases.extend(full_phrases_out)
-
-#replace phrases with our full set
-generic_data['rasa_nlu_data']['common_examples'] = phrases
-
-#add our synonyms to generic synonyms
-synonyms = generic_data['rasa_nlu_data']['entity_synonyms']
-synonyms.extend(syns_entry)
-
-#replace synonyms with our full set
-generic_data['rasa_nlu_data']['entity_synonyms'] = synonyms
-
-#add our synonyms to generic synonyms
-regex_feats = generic_data['rasa_nlu_data']['regex_features']
-regex_feats.extend(regex_entry)
-
-#replace synonyms with our full set
-generic_data['rasa_nlu_data']['regex_features'] = regex_feats
-
-#write out new json training data
-with open('data/app_train_data.json', 'w') as f:
-    json.dump(generic_data, f, indent=2)
+train.augment_train_data(
+	'data/generic_rasa_train_data.json', 
+	'data/app_train_data.json', 
+	phrase_data, syn_data, regex_data)
 #-----------------------------------------------------------

@@ -2,7 +2,7 @@ from rasa_nlu.model import Interpreter
 from rasa_nlu.config import RasaNLUConfig
 import pandas as pd
 import glob
-import apputils.gennumbers
+import gennumbers
 import re
 from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
@@ -26,10 +26,10 @@ def fuzzy_match_ents(ents, choices, limit=2, thresh=80):
 def gen_rank_translation():
 	#generate valid chart ranks in number (1) and word (one) forms
 	numranks = {str(x): x for x in range(1,101)}
-	numranks_str = {x: i+1 for i,x in enumerate(apputils.gennumbers.word_nums_100())}
+	numranks_str = {x: i+1 for i,x in enumerate(gennumbers.word_nums_100())}
 	#
 	#generate ordinal ranks in number (1st) and word forms (first)
-	ordranks = {x: i+1 for i,x in enumerate(apputils.gennumbers.ordinal_nums_100())}
+	ordranks = {x: i+1 for i,x in enumerate(gennumbers.ordinal_nums_100())}
 	ordranks_str = [
 	'first','second','third','fourth','fifth',
 	'sixth','seventh','eighth','ninth','tenth',
@@ -43,7 +43,8 @@ def gen_rank_translation():
 	#
 	return word2int
 
-def respond(message, interpreter, app_data_path, rank_dict):
+rank_dict = gen_rank_translation()
+def respond(message, interpreter, app_data_path):
 
 	app_data = pd.read_csv(app_data_path)
 	app_data['app'] = app_data['app'].apply(lambda x: x.decode("utf-8").encode('ascii',errors='ignore'))
