@@ -78,7 +78,17 @@ param_phrases = [
 'is {app} ranked higher than {app} on the {chart} chart',
 'is {app} higher ranked on the {chart} chart or the {chart} chart',
 'is {app} ranked lower than {app}',
-'is {app} the number {numrank} {chart} app'
+'is {app} the number {numrank} {chart} app',
+'number {numrank} {genre} app',
+'tell me about {app}',
+'what app is in {ordrank}',
+'what {chart} app is in {ordrank}',
+'who is in {ordrank}',
+'who is in {ordrank} for {genre}',
+'what are the top ranked {genre} apps',
+'what {genre} are popular',
+'{app} rank',
+'what apps are rank {numrank}'
 ]
 
 non_param_phrases = [
@@ -105,22 +115,24 @@ for phrase in non_param_phrases:
 ###################################
 # CREATE ENTRIES FOR PARAMED PHRASES
 ###################################
-for i in range(2000):
+for i in range(2500):
 	#choose a random phrase to fill in
 	param_phrase = random.choice(param_phrases)
-	#
+	end_punct = random.choice(['','.','?'])
+	param_phrase = param_phrase + end_punct
+	
 	replacements = {}
 	for k, v in param_values.items():
 		param_phrase, replaced = replace_params(
 			param_phrase, '{'+k+'}', v)
 		replacements[k] = replaced
-	#
+	
 	ents_entry = []
 	for k, v in replacements.items():
 		for ent in v:
 			entry = create_ent_entry(param_phrase, ent, k)
 			ents_entry.extend(entry)
-	#
+
 	#create json entry for tagged phrase
 	phrase_dict = {
 		"text": param_phrase,
