@@ -2,13 +2,17 @@ from string import punctuation
 import re
 import random
 
+#escape puncuatuion in entity to avoid clashing w/ regex chars
+escaped_punc = ''.join(['\\' + c for c in punctuation])
+punc_regex = '([' + escaped_punc + '])'
+
+def escape_punct(text):
+	return re.sub(punc_regex, r'\\\1', text)
+
 #function to create a tagged entity entry
 # in the format expected by rasa nlu
 def create_ent_entry(text, ent_text, ent_type):
-	#escape puncuatuion in entity to avoid clashing w/ regex chars
-	escaped_punc = ''.join(['\\' + c for c in punctuation])
-	punc_regex = '([' + escaped_punc + '])'
-	ent_text_escape_punt = re.sub(punc_regex, r'\\\1', ent_text)
+	ent_text_escape_punt = escape_punct(ent_text)
 	matches = re.finditer(ent_text_escape_punt, text)
 	out = []
 	for match in matches:

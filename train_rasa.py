@@ -1,6 +1,9 @@
 from rasa_nlu.converters import load_data
 from rasa_nlu.config import RasaNLUConfig
 from rasa_nlu.model import Trainer
+import time
+
+t0 = time.time()
 
 training_data = load_data('data/app_train_data.json')
 
@@ -13,3 +16,7 @@ trainer = Trainer(config)
 interpreter = trainer.train(training_data)
 
 model_directory = trainer.persist('./rasa_model')
+
+t1 = time.time()
+
+print('TRAIN TIME: {:.2f}'.format(t1-t0))

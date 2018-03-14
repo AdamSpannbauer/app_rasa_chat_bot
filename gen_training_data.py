@@ -3,7 +3,7 @@ import pandas as pd
 import random
 import re
 import apputils.gennumbers
-from apputils.traindata import create_ent_entry, replace_params
+from apputils.traindata import create_ent_entry, replace_params, escape_punct
 
 
 ###################################
@@ -39,15 +39,19 @@ param_values = {'chart': charts,
 #-----------------------------------------------------------
 
 ###################################
-# SYNONYM CREATION
+# SYNONYM AND REGEX FEATURE CREATION
 ###################################
 syns_entry = []
+regex_entry = []
+
 for k, ents in param_values.items():
 	for ent in ents:
 		syns = list(set([ent, ent.lower(), ent.upper(), ent.title()]))
 		syn_entry = {'value': ent.lower(),
 					 'synonyms': syns}
+		reg_entry = [{'name': k, 'pattern': escape_punct(e)} for e in syns]
 		syns_entry.append(syn_entry)
+		regex_entry.extend(reg_entry)
 #-----------------------------------------------------------
 
 ###################################
@@ -162,6 +166,13 @@ synonyms.extend(syns_entry)
 
 #replace synonyms with our full set
 generic_data['rasa_nlu_data']['entity_synonyms'] = synonyms
+
+#add our synonyms to generic synonyms
+regex_feats = generic_data['rasa_nlu_data']['regex_features']
+regex_feats.extend(regex_entry)
+
+#replace synonyms with our full set
+generic_data['rasa_nlu_data']['regex_features'] = regex_feats
 
 #write out new json training data
 with open('data/app_train_data.json', 'w') as f:
