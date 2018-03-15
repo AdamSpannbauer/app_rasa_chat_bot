@@ -127,7 +127,7 @@ def respond(message, interpreter, app_data_path):
 					response_statements.append(response_i)
 					if i >= 2:
 						break
-				response = '\n'.join(response_statements)
+				response = '...\n'.join(response_statements)
 			else:
 				response = "i couldn't find anything related to you app search"
 		else:
@@ -145,7 +145,7 @@ def respond(message, interpreter, app_data_path):
 				response_statements.append(response_i)
 				if i >= 2:
 					break
-			response = '\n'.join(response_statements)
+			response = '...\n'.join(response_statements)
 	else:
 		apologies = [
 		"i didn't understand that",

@@ -1,6 +1,12 @@
-### Building Rasa NLU
+### Rasa NLU to query App Store Top Charts
 
-#### Output
+#### Dash App Output
+
+<p align='center'><kbd><img src='readme/dash_demo.png' width=50%></kbd></p>
+
+The above image is a screen cap from a limited [Plotly Dash](https://plot.ly/products/dash/) app created to interact with the bot.  The app code is in [`dash_demo_app.py`](dash_demo_app.py).
+
+#### Command Line Output
 
 <p align='center'><img src='readme/example.gif' width=70%></p>
 
