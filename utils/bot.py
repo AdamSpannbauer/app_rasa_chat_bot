@@ -62,12 +62,12 @@ def respond(message, interpreter, app_data_path):
 		greeting = random.choice(greetings)
 		suggestion = random.choice(suggestions)
 
-		response = '{}, try asking me a question about apps like {}'.format(greeting, suggestion)
+		response = ['{}, try asking me a question about apps like {}'.format(greeting, suggestion)]
 	
 	elif parsed['intent']['name'] == 'goodbye':
 		closings = ['cya!', 'goodbye', 'have a good day!', 'peace out']
 
-		response = random.choice(closings)
+		response = [random.choice(closings)]
 
 	elif parsed['intent']['name'] == 'app_rank_search':
 		if len(parsed['entities']) > 0:
@@ -127,9 +127,9 @@ def respond(message, interpreter, app_data_path):
 					response_statements.append(response_i)
 					if i >= 2:
 						break
-				response = '...\n'.join(response_statements)
+				response = response_statements
 			else:
-				response = "i couldn't find anything related to you app search"
+				response = ["i couldn't find anything related to you app search"]
 		else:
 			query_result = app_data.sort_values(by=['rank']).reset_index(drop=True)
 
@@ -145,7 +145,7 @@ def respond(message, interpreter, app_data_path):
 				response_statements.append(response_i)
 				if i >= 2:
 					break
-			response = '...\n'.join(response_statements)
+			response = response_statements
 	else:
 		apologies = [
 		"i didn't understand that",
@@ -161,7 +161,7 @@ def respond(message, interpreter, app_data_path):
 		apology = random.choice(apologies)
 		suggestion = random.choice(suggestions)
 
-		response = '{}, try asking me something like {}'.format(apology, suggestion)
+		response = ['{}, try asking me something like {}'.format(apology, suggestion)]
 
 	return response
 

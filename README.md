@@ -4,7 +4,7 @@
 
 <p align='center'>
   <kbd>
-    <img src='readme/dash_demo.png' height=400>
+    <img src='readme/dash_demo.png' height=375>
   </kbd>
 </p>
 

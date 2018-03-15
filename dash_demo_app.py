@@ -80,7 +80,7 @@ def update_conversation(click, text):
 		#user message aligned left
 		rcvd = [html.H5(text, style={'text-align': 'left'})]
 		#bot response aligned right and italics
-		rspd = [html.H5(html.I(response), style={'text-align': 'right'})]
+		rspd = [html.H5(html.I(r), style={'text-align': 'right'}) for r in response]
 		#append interaction to conversation history
 		conv_hist = rcvd + rspd + [html.Hr()] +conv_hist
 		

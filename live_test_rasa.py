@@ -26,6 +26,7 @@ except:
 #--------------------------------------------------
 
 #loop forever
+print("\nTYPE 'exit' TO LEAVE CHAT\n\n")
 while True:
 	#prompt and read in user input
 	user_input = unicode(raw_input("USER: "))
@@ -40,5 +41,5 @@ while True:
 				     app_data_path)
 
 	#print response
-	print('BOT: {}\n'.format(response))
+	print('BOT: {}\n'.format('\n'.join(response)))
 	
