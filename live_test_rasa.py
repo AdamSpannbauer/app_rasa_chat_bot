@@ -36,8 +36,8 @@ while True:
 
 	#generate response
 	response = utils.bot.respond(user_input, 
-							     interpreter, 
-						  		 app_data_path)
+				     interpreter, 
+				     app_data_path)
 
 	#print response
 	print('BOT: {}\n'.format(response))
