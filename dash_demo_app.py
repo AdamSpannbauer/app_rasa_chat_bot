@@ -62,7 +62,7 @@ app.layout = html.Div([
 #trigger bot response to user inputted message on submit button click
 @app.callback(
 	Output(component_id='conversation', component_property='children'),
-	[Input('send_button', 'n_clicks')],
+	[Input(component_id='send_button', component_property='n_clicks')],
 	state=[State(component_id='msg_input', component_property='value')]
 )
 #function to add new user*bot interaction to conversation history
@@ -87,6 +87,13 @@ def update_conversation(click, text):
 		return conv_hist
 	else:
 		return ''
+
+@app.callback(
+	Output(component_id='msg_input', component_property='value'),
+	[Input(component_id='conversation', component_property='children')]
+	)
+def clear_input(_):
+	return ''
 
 #run app
 if __name__ == '__main__':

@@ -1,20 +1,16 @@
 ## Rasa NLU to query App Store Top Charts
 
-### Dash App Output
+### Output
 
 <p align='center'>
   <kbd>
-    <img src='readme/dash_demo.png' height=375>
+    <img src='readme/dash_demo.gif' height=200>
   </kbd>
 </p>
 
 The above image is a screen cap from a limited [Plotly Dash](https://plot.ly/products/dash/) app created to interact with the bot.  The app code is in [`dash_demo_app.py`](dash_demo_app.py).
 
-### Command Line Output
-
-<p align='center'><img src='readme/example.gif' width=70%></p>
-
-The above gif is a screen cap from running [`live_test_rasa.py`](live_test_rasa.py).
+The file [`live_test_rasa.py`](live_test_rasa.py), allows a similar experience from the command line instead of via Dash in browser.
 
 ### Input Data:
 * [`data/generic_rasa_train_data.json`](data/generic_rasa_train_data.json): taken from the rasa intro restaurant chatbot example; all of the restaurant intent examples were removed
