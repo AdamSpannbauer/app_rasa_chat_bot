@@ -36,10 +36,10 @@ ordranks_str = [
 ordranks.extend(ordranks_str)
 
 ent_dict = {'chart': charts, 
-			'app': app_names,
-			'numrank': numranks,
-			'ordrank': ordranks,
-			'genre': genres}
+	    'app': app_names,
+	    'numrank': numranks,
+	    'ordrank': ordranks,
+	    'genre': genres}
 #-----------------------------------------------------------
 
 ###################################
