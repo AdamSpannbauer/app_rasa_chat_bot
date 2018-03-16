@@ -72,7 +72,7 @@ def update_conversation(click, text):
 	#dont update on app load
 	if click > 0:
 		#call bot with user inputted text
-		response = utils.bot.respond(
+		response, generic_response = utils.bot.respond(
 			text, 
 			interpreter, 
 			app_data_path
@@ -81,6 +81,9 @@ def update_conversation(click, text):
 		rcvd = [html.H5(text, style={'text-align': 'left'})]
 		#bot response aligned right and italics
 		rspd = [html.H5(html.I(r), style={'text-align': 'right'}) for r in response]
+		if generic_response:
+			generic_msg = 'i couldn\'t find any specifics in your message, here are some popular apps:'
+			rspd = [html.H6(html.I(generic_msg))] + rspd
 		#append interaction to conversation history
 		conv_hist = rcvd + rspd + [html.Hr()] +conv_hist
 		

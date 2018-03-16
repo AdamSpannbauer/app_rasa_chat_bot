@@ -8,6 +8,8 @@ from fuzzywuzzy import process
 from fuzzywuzzy import fuzz
 import random
 
+random.seed(42)
+
 #---------------------------------------------------------------------
 
 def fuzzy_match_ents(ents, choices, limit=2, thresh=80):
@@ -50,6 +52,8 @@ def respond(message, interpreter, app_data_path):
 	app_data['app'] = app_data['app'].apply(lambda x: x.decode("utf-8").encode('ascii',errors='ignore'))
 
 	parsed = interpreter.parse(message)
+
+	generic_app_response = False
 
 	if parsed['intent']['name'] == 'greet':
 		greetings = ['hey there', 'hi', 'howdy', 'hello']
@@ -108,35 +112,48 @@ def respond(message, interpreter, app_data_path):
 
 			if len(df_list) > 1:
 				filt_inds = reduce(lambda x, y: set(x.index).intersection(set(y.index)), df_list)
-			else:
+			elif len(df_list) == 1:
 				filt_inds = set(df_list[0].index)
-
-			query_result = app_data.iloc[list(filt_inds), ]
-			query_result = query_result.sort_values(by=['rank']).reset_index(drop=True)
-
-			if query_result.shape[0] > 0:
-				response_statements = []
-
-				for i, row in query_result.iterrows():
-					response_i = '{app} is a {genre} app ranked {rank} on the {chart} chart'
-					response_i = response_i.format(
-						app=row['app'], 
-						rank=row['rank'], 
-						chart=row['chart'],
-						genre=row['genre'])
-					response_statements.append(response_i)
-					if i >= 2:
-						break
-				response = response_statements
 			else:
-				response = ["i couldn't find anything related to you app search"]
+				filt_inds = None
+
+			if filt_inds is not None:
+				query_result = app_data.iloc[list(filt_inds), ]
+				query_result = query_result.sort_values(by=['rank']).reset_index(drop=True)
+
+				if query_result.shape[0] > 0:
+					response_statements = []
+
+					responses = [
+						'{app} is a {genre} app ranked {rank} on the {chart} chart',
+						'a popular {genre} app is {app}; it\'s ranked {rank} on the {chart} chart',
+						'number {rank} on the {chart} chart is the {genre} app {app}',
+						'if you\'re interested in {genre}, then check out {app}. it\'s ranked {rank} among {chart}'
+						]
+					response_choice = random.choice(responses)
+
+					for i, row in query_result.iterrows():
+						response_i = response_choice
+						response_i = response_i.format(
+							app=row['app'], 
+							rank=row['rank'], 
+							chart=row['chart'],
+							genre=row['genre'])
+						response_statements.append(response_i)
+						if i >= 2:
+							break
+					response = response_statements
+				else:
+					response = ["i couldn't find anything related to your app search :("]
+			else:
+				response = ["i couldn't find anything related to your app search :("]
 		else:
 			query_result = app_data.sort_values(by=['rank']).reset_index(drop=True)
 
 			response_statements = []
 
 			for i, row in query_result.iterrows():
-				response_i = '{app} is a {genre} app ranked {rank} on the {chart} chart'
+				response_i = '- {app} is a {genre} app ranked {rank} on the {chart} chart'
 				response_i = response_i.format(
 					app=row['app'], 
 					rank=row['rank'], 
@@ -146,6 +163,7 @@ def respond(message, interpreter, app_data_path):
 				if i >= 2:
 					break
 			response = response_statements
+			generic_app_response = True
 	else:
 		apologies = [
 		"i didn't understand that",
@@ -163,5 +181,5 @@ def respond(message, interpreter, app_data_path):
 
 		response = ['{}, try asking me something like {}'.format(apology, suggestion)]
 
-	return response
+	return response, generic_app_response
 
