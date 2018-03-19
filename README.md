@@ -1,5 +1,7 @@
 ## Rasa NLU to query App Store Top Charts
 
+[Related blog post](https://adamspannbauer.github.io/2018/03/15/building-a-rasa-chatbot/)
+
 ### Output
 
 <p align='center'>
