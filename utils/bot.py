@@ -1,9 +1,11 @@
-import pandas as pd
-import utils.gennumbers as gennumbers
-from fuzzywuzzy import process
-from fuzzywuzzy import fuzz
 import random
 from functools import reduce
+
+import pandas as pd
+from fuzzywuzzy import process
+from fuzzywuzzy import fuzz
+
+import utils.gennumbers as gennumbers
 
 
 # ---------------------------------------------------------------------

@@ -1,13 +1,15 @@
+import glob
+
 import dash
 from dash.dependencies import Input, Output, State
 import dash_core_components as dcc
 import dash_html_components as html
 
-import glob
-import utils.bot
-from utils.downloader import download_charts
 from rasa_nlu.model import Interpreter
 from rasa_nlu.config import RasaNLUConfig
+
+import utils.bot
+from utils.downloader import download_charts
 
 # read in most recent model build
 model_dirs = sorted(glob.glob('./rasa_model/default/model_*/'))
