@@ -1,0 +1,7066 @@
+[
+    {
+        "name": "greet",
+        "pattern": "^hey|^hi"
+    },
+    {
+        "name": "chart",
+        "pattern": "free"
+    },
+    {
+        "name": "chart",
+        "pattern": "FREE"
+    },
+    {
+        "name": "chart",
+        "pattern": "Free"
+    },
+    {
+        "name": "chart",
+        "pattern": "PAID"
+    },
+    {
+        "name": "chart",
+        "pattern": "paid"
+    },
+    {
+        "name": "chart",
+        "pattern": "Paid"
+    },
+    {
+        "name": "chart",
+        "pattern": "GROSSING"
+    },
+    {
+        "name": "chart",
+        "pattern": "Grossing"
+    },
+    {
+        "name": "chart",
+        "pattern": "grossing"
+    },
+    {
+        "name": "chart",
+        "pattern": "top grossing"
+    },
+    {
+        "name": "chart",
+        "pattern": "TOP GROSSING"
+    },
+    {
+        "name": "chart",
+        "pattern": "Top Grossing"
+    },
+    {
+        "name": "app",
+        "pattern": "Venmo\\: Send \\& Receive Money"
+    },
+    {
+        "name": "app",
+        "pattern": "VENMO\\: SEND \\& RECEIVE MONEY"
+    },
+    {
+        "name": "app",
+        "pattern": "venmo\\: send \\& receive money"
+    },
+    {
+        "name": "app",
+        "pattern": "Score\\! Match"
+    },
+    {
+        "name": "app",
+        "pattern": "SCORE\\! MATCH"
+    },
+    {
+        "name": "app",
+        "pattern": "score\\! match"
+    },
+    {
+        "name": "app",
+        "pattern": "ZOMBIEVILLE USA 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Zombieville Usa 2"
+    },
+    {
+        "name": "app",
+        "pattern": "zombieville usa 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Zombieville USA 2"
+    },
+    {
+        "name": "app",
+        "pattern": "big fish casino\\: slots \\& games"
+    },
+    {
+        "name": "app",
+        "pattern": "BIG FISH CASINO\\: SLOTS \\& GAMES"
+    },
+    {
+        "name": "app",
+        "pattern": "Big Fish Casino\\: Slots \\& Games"
+    },
+    {
+        "name": "app",
+        "pattern": "COLOR ROAD\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Color Road\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "color road\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Sweat\\: Kayla Itsines Fitness"
+    },
+    {
+        "name": "app",
+        "pattern": "SWEAT\\: KAYLA ITSINES FITNESS"
+    },
+    {
+        "name": "app",
+        "pattern": "sweat\\: kayla itsines fitness"
+    },
+    {
+        "name": "app",
+        "pattern": "AdBlock"
+    },
+    {
+        "name": "app",
+        "pattern": "adblock"
+    },
+    {
+        "name": "app",
+        "pattern": "Adblock"
+    },
+    {
+        "name": "app",
+        "pattern": "ADBLOCK"
+    },
+    {
+        "name": "app",
+        "pattern": "war and order"
+    },
+    {
+        "name": "app",
+        "pattern": "War and Order"
+    },
+    {
+        "name": "app",
+        "pattern": "War And Order"
+    },
+    {
+        "name": "app",
+        "pattern": "WAR AND ORDER"
+    },
+    {
+        "name": "app",
+        "pattern": "Colorfy\\: Coloring Book \\& Arts"
+    },
+    {
+        "name": "app",
+        "pattern": "colorfy\\: coloring book \\& arts"
+    },
+    {
+        "name": "app",
+        "pattern": "COLORFY\\: COLORING BOOK \\& ARTS"
+    },
+    {
+        "name": "app",
+        "pattern": "new yahtzee® with buddies dice"
+    },
+    {
+        "name": "app",
+        "pattern": "New Yahtzee® With Buddies Dice"
+    },
+    {
+        "name": "app",
+        "pattern": "New YAHTZEE® With Buddies Dice"
+    },
+    {
+        "name": "app",
+        "pattern": "NEW YAHTZEE® WITH BUDDIES DICE"
+    },
+    {
+        "name": "app",
+        "pattern": "phase 10 pro"
+    },
+    {
+        "name": "app",
+        "pattern": "Phase 10 Pro"
+    },
+    {
+        "name": "app",
+        "pattern": "PHASE 10 PRO"
+    },
+    {
+        "name": "app",
+        "pattern": "turboscan™ pro\\: pdf scanner"
+    },
+    {
+        "name": "app",
+        "pattern": "Turboscan™ Pro\\: Pdf Scanner"
+    },
+    {
+        "name": "app",
+        "pattern": "TURBOSCAN™ PRO\\: PDF SCANNER"
+    },
+    {
+        "name": "app",
+        "pattern": "TurboScan™ Pro\\: PDF scanner"
+    },
+    {
+        "name": "app",
+        "pattern": "HULU\\: WATCH TV SHOWS \\& MOVIES"
+    },
+    {
+        "name": "app",
+        "pattern": "hulu\\: watch tv shows \\& movies"
+    },
+    {
+        "name": "app",
+        "pattern": "Hulu\\: Watch Tv Shows \\& Movies"
+    },
+    {
+        "name": "app",
+        "pattern": "Hulu\\: Watch TV Shows \\& Movies"
+    },
+    {
+        "name": "app",
+        "pattern": "Clash Royale"
+    },
+    {
+        "name": "app",
+        "pattern": "CLASH ROYALE"
+    },
+    {
+        "name": "app",
+        "pattern": "clash royale"
+    },
+    {
+        "name": "app",
+        "pattern": "MADDEN NFL FOOTBALL"
+    },
+    {
+        "name": "app",
+        "pattern": "MADDEN NFL Football"
+    },
+    {
+        "name": "app",
+        "pattern": "Madden Nfl Football"
+    },
+    {
+        "name": "app",
+        "pattern": "madden nfl football"
+    },
+    {
+        "name": "app",
+        "pattern": "Beat Maker Go \\- Make Music"
+    },
+    {
+        "name": "app",
+        "pattern": "BEAT MAKER GO \\- MAKE MUSIC"
+    },
+    {
+        "name": "app",
+        "pattern": "beat maker go \\- make music"
+    },
+    {
+        "name": "app",
+        "pattern": "BEST VPN PROXY BETTERNET"
+    },
+    {
+        "name": "app",
+        "pattern": "Best VPN Proxy Betternet"
+    },
+    {
+        "name": "app",
+        "pattern": "Best Vpn Proxy Betternet"
+    },
+    {
+        "name": "app",
+        "pattern": "best vpn proxy betternet"
+    },
+    {
+        "name": "app",
+        "pattern": "Ncaa March Madness Live"
+    },
+    {
+        "name": "app",
+        "pattern": "ncaa march madness live"
+    },
+    {
+        "name": "app",
+        "pattern": "NCAA March Madness Live"
+    },
+    {
+        "name": "app",
+        "pattern": "NCAA MARCH MADNESS LIVE"
+    },
+    {
+        "name": "app",
+        "pattern": "GROUPON"
+    },
+    {
+        "name": "app",
+        "pattern": "groupon"
+    },
+    {
+        "name": "app",
+        "pattern": "Groupon"
+    },
+    {
+        "name": "app",
+        "pattern": "Starbucks"
+    },
+    {
+        "name": "app",
+        "pattern": "starbucks"
+    },
+    {
+        "name": "app",
+        "pattern": "STARBUCKS"
+    },
+    {
+        "name": "app",
+        "pattern": "SCRIBBLENAUTS UNLIMITED"
+    },
+    {
+        "name": "app",
+        "pattern": "Scribblenauts Unlimited"
+    },
+    {
+        "name": "app",
+        "pattern": "scribblenauts unlimited"
+    },
+    {
+        "name": "app",
+        "pattern": "Google Translate"
+    },
+    {
+        "name": "app",
+        "pattern": "GOOGLE TRANSLATE"
+    },
+    {
+        "name": "app",
+        "pattern": "google translate"
+    },
+    {
+        "name": "app",
+        "pattern": "COOKING CRAZE\\- RESTAURANT GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "cooking craze\\- restaurant game"
+    },
+    {
+        "name": "app",
+        "pattern": "Cooking Craze\\- Restaurant Game"
+    },
+    {
+        "name": "app",
+        "pattern": "TOCA LIFE\\: CITY"
+    },
+    {
+        "name": "app",
+        "pattern": "Toca Life\\: City"
+    },
+    {
+        "name": "app",
+        "pattern": "toca life\\: city"
+    },
+    {
+        "name": "app",
+        "pattern": "bloons td 5"
+    },
+    {
+        "name": "app",
+        "pattern": "Bloons Td 5"
+    },
+    {
+        "name": "app",
+        "pattern": "BLOONS TD 5"
+    },
+    {
+        "name": "app",
+        "pattern": "Bloons TD 5"
+    },
+    {
+        "name": "app",
+        "pattern": "Monument Valley 2"
+    },
+    {
+        "name": "app",
+        "pattern": "MONUMENT VALLEY 2"
+    },
+    {
+        "name": "app",
+        "pattern": "monument valley 2"
+    },
+    {
+        "name": "app",
+        "pattern": "game of thrones\\: conquest™"
+    },
+    {
+        "name": "app",
+        "pattern": "Game of Thrones\\: Conquest™"
+    },
+    {
+        "name": "app",
+        "pattern": "GAME OF THRONES\\: CONQUEST™"
+    },
+    {
+        "name": "app",
+        "pattern": "Game Of Thrones\\: Conquest™"
+    },
+    {
+        "name": "app",
+        "pattern": "shape escape\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Shape Escape\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "SHAPE ESCAPE\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "marvel contest of champions"
+    },
+    {
+        "name": "app",
+        "pattern": "MARVEL CONTEST OF CHAMPIONS"
+    },
+    {
+        "name": "app",
+        "pattern": "MARVEL Contest of Champions"
+    },
+    {
+        "name": "app",
+        "pattern": "Marvel Contest Of Champions"
+    },
+    {
+        "name": "app",
+        "pattern": "BASEBALL BOY\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Baseball Boy\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "baseball boy\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "HappyCow Find Vegan Food"
+    },
+    {
+        "name": "app",
+        "pattern": "Happycow Find Vegan Food"
+    },
+    {
+        "name": "app",
+        "pattern": "HAPPYCOW FIND VEGAN FOOD"
+    },
+    {
+        "name": "app",
+        "pattern": "happycow find vegan food"
+    },
+    {
+        "name": "app",
+        "pattern": "Full Fitness \\: Exercise Workout Trainer"
+    },
+    {
+        "name": "app",
+        "pattern": "FULL FITNESS \\: EXERCISE WORKOUT TRAINER"
+    },
+    {
+        "name": "app",
+        "pattern": "full fitness \\: exercise workout trainer"
+    },
+    {
+        "name": "app",
+        "pattern": "CSR RACING 2"
+    },
+    {
+        "name": "app",
+        "pattern": "CSR Racing 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Csr Racing 2"
+    },
+    {
+        "name": "app",
+        "pattern": "csr racing 2"
+    },
+    {
+        "name": "app",
+        "pattern": "CAMERA\\+"
+    },
+    {
+        "name": "app",
+        "pattern": "Camera\\+"
+    },
+    {
+        "name": "app",
+        "pattern": "camera\\+"
+    },
+    {
+        "name": "app",
+        "pattern": "bowmasters \\- multiplayer game"
+    },
+    {
+        "name": "app",
+        "pattern": "Bowmasters \\- Multiplayer Game"
+    },
+    {
+        "name": "app",
+        "pattern": "BOWMASTERS \\- MULTIPLAYER GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "the sims™ mobile"
+    },
+    {
+        "name": "app",
+        "pattern": "THE SIMS™ MOBILE"
+    },
+    {
+        "name": "app",
+        "pattern": "The Sims™ Mobile"
+    },
+    {
+        "name": "app",
+        "pattern": "Lineage 2\\: Revolution"
+    },
+    {
+        "name": "app",
+        "pattern": "LINEAGE 2\\: REVOLUTION"
+    },
+    {
+        "name": "app",
+        "pattern": "lineage 2\\: revolution"
+    },
+    {
+        "name": "app",
+        "pattern": "Tamagotchi Classic \\-Original\\-"
+    },
+    {
+        "name": "app",
+        "pattern": "tamagotchi classic \\-original\\-"
+    },
+    {
+        "name": "app",
+        "pattern": "TAMAGOTCHI CLASSIC \\-ORIGINAL\\-"
+    },
+    {
+        "name": "app",
+        "pattern": "Slayin"
+    },
+    {
+        "name": "app",
+        "pattern": "SLAYIN"
+    },
+    {
+        "name": "app",
+        "pattern": "slayin"
+    },
+    {
+        "name": "app",
+        "pattern": "Procreate Pocket"
+    },
+    {
+        "name": "app",
+        "pattern": "PROCREATE POCKET"
+    },
+    {
+        "name": "app",
+        "pattern": "procreate pocket"
+    },
+    {
+        "name": "app",
+        "pattern": "peak \\- brain training"
+    },
+    {
+        "name": "app",
+        "pattern": "Peak \\- Brain Training"
+    },
+    {
+        "name": "app",
+        "pattern": "PEAK \\- BRAIN TRAINING"
+    },
+    {
+        "name": "app",
+        "pattern": "INSTAGRAM"
+    },
+    {
+        "name": "app",
+        "pattern": "instagram"
+    },
+    {
+        "name": "app",
+        "pattern": "Instagram"
+    },
+    {
+        "name": "app",
+        "pattern": "GOOGLE CALENDAR"
+    },
+    {
+        "name": "app",
+        "pattern": "google calendar"
+    },
+    {
+        "name": "app",
+        "pattern": "Google Calendar"
+    },
+    {
+        "name": "app",
+        "pattern": "COUCH TO 5K® \\- RUN TRAINING"
+    },
+    {
+        "name": "app",
+        "pattern": "Couch To 5K® \\- Run Training"
+    },
+    {
+        "name": "app",
+        "pattern": "Couch to 5K® \\- Run training"
+    },
+    {
+        "name": "app",
+        "pattern": "couch to 5k® \\- run training"
+    },
+    {
+        "name": "app",
+        "pattern": "ESPN TOURNAMENT CHALLENGE"
+    },
+    {
+        "name": "app",
+        "pattern": "espn tournament challenge"
+    },
+    {
+        "name": "app",
+        "pattern": "ESPN Tournament Challenge"
+    },
+    {
+        "name": "app",
+        "pattern": "Espn Tournament Challenge"
+    },
+    {
+        "name": "app",
+        "pattern": "Would You Rather\\?\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "would you rather\\?\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "WOULD YOU RATHER\\?\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Would you rather\\?\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Videoshop \\- Video Editor"
+    },
+    {
+        "name": "app",
+        "pattern": "VIDEOSHOP \\- VIDEO EDITOR"
+    },
+    {
+        "name": "app",
+        "pattern": "videoshop \\- video editor"
+    },
+    {
+        "name": "app",
+        "pattern": "PHOTOMATH"
+    },
+    {
+        "name": "app",
+        "pattern": "Photomath"
+    },
+    {
+        "name": "app",
+        "pattern": "photomath"
+    },
+    {
+        "name": "app",
+        "pattern": "Amazon Music"
+    },
+    {
+        "name": "app",
+        "pattern": "amazon music"
+    },
+    {
+        "name": "app",
+        "pattern": "AMAZON MUSIC"
+    },
+    {
+        "name": "app",
+        "pattern": "TOCA HAIR SALON 3"
+    },
+    {
+        "name": "app",
+        "pattern": "toca hair salon 3"
+    },
+    {
+        "name": "app",
+        "pattern": "Toca Hair Salon 3"
+    },
+    {
+        "name": "app",
+        "pattern": "mileiq\\: mileage log for taxes"
+    },
+    {
+        "name": "app",
+        "pattern": "MILEIQ\\: MILEAGE LOG FOR TAXES"
+    },
+    {
+        "name": "app",
+        "pattern": "MileIQ\\: Mileage Log for Taxes"
+    },
+    {
+        "name": "app",
+        "pattern": "Mileiq\\: Mileage Log For Taxes"
+    },
+    {
+        "name": "app",
+        "pattern": "Magic Piano By Smule"
+    },
+    {
+        "name": "app",
+        "pattern": "MAGIC PIANO BY SMULE"
+    },
+    {
+        "name": "app",
+        "pattern": "Magic Piano by Smule"
+    },
+    {
+        "name": "app",
+        "pattern": "magic piano by smule"
+    },
+    {
+        "name": "app",
+        "pattern": "Legendary \\- Game Of Heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "LEGENDARY \\- GAME OF HEROES"
+    },
+    {
+        "name": "app",
+        "pattern": "legendary \\- game of heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "Legendary \\- Game of Heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights at Freddys 4"
+    },
+    {
+        "name": "app",
+        "pattern": "FIVE NIGHTS AT FREDDYS 4"
+    },
+    {
+        "name": "app",
+        "pattern": "five nights at freddys 4"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights At Freddys 4"
+    },
+    {
+        "name": "app",
+        "pattern": "camtoplan pro"
+    },
+    {
+        "name": "app",
+        "pattern": "CamToPlan PRO"
+    },
+    {
+        "name": "app",
+        "pattern": "Camtoplan Pro"
+    },
+    {
+        "name": "app",
+        "pattern": "CAMTOPLAN PRO"
+    },
+    {
+        "name": "app",
+        "pattern": "Parkour Flight"
+    },
+    {
+        "name": "app",
+        "pattern": "parkour flight"
+    },
+    {
+        "name": "app",
+        "pattern": "PARKOUR FLIGHT"
+    },
+    {
+        "name": "app",
+        "pattern": "Calm"
+    },
+    {
+        "name": "app",
+        "pattern": "calm"
+    },
+    {
+        "name": "app",
+        "pattern": "CALM"
+    },
+    {
+        "name": "app",
+        "pattern": "pixel art \\- color by number"
+    },
+    {
+        "name": "app",
+        "pattern": "Pixel Art \\- Color by Number"
+    },
+    {
+        "name": "app",
+        "pattern": "Pixel Art \\- Color By Number"
+    },
+    {
+        "name": "app",
+        "pattern": "PIXEL ART \\- COLOR BY NUMBER"
+    },
+    {
+        "name": "app",
+        "pattern": "google drive"
+    },
+    {
+        "name": "app",
+        "pattern": "GOOGLE DRIVE"
+    },
+    {
+        "name": "app",
+        "pattern": "Google Drive"
+    },
+    {
+        "name": "app",
+        "pattern": "toy blast"
+    },
+    {
+        "name": "app",
+        "pattern": "Toy Blast"
+    },
+    {
+        "name": "app",
+        "pattern": "TOY BLAST"
+    },
+    {
+        "name": "app",
+        "pattern": "Trivia Crack \\(No Ads\\)"
+    },
+    {
+        "name": "app",
+        "pattern": "trivia crack \\(no ads\\)"
+    },
+    {
+        "name": "app",
+        "pattern": "TRIVIA CRACK \\(NO ADS\\)"
+    },
+    {
+        "name": "app",
+        "pattern": "POCKET BUILD"
+    },
+    {
+        "name": "app",
+        "pattern": "Pocket Build"
+    },
+    {
+        "name": "app",
+        "pattern": "pocket build"
+    },
+    {
+        "name": "app",
+        "pattern": "pop\\! slots – casino slot games"
+    },
+    {
+        "name": "app",
+        "pattern": "Pop\\! Slots – Casino Slot Games"
+    },
+    {
+        "name": "app",
+        "pattern": "POP\\! Slots – Casino Slot Games"
+    },
+    {
+        "name": "app",
+        "pattern": "POP\\! SLOTS – CASINO SLOT GAMES"
+    },
+    {
+        "name": "app",
+        "pattern": "Nexomon"
+    },
+    {
+        "name": "app",
+        "pattern": "nexomon"
+    },
+    {
+        "name": "app",
+        "pattern": "NEXOMON"
+    },
+    {
+        "name": "app",
+        "pattern": "gmail \\- email by google"
+    },
+    {
+        "name": "app",
+        "pattern": "GMAIL \\- EMAIL BY GOOGLE"
+    },
+    {
+        "name": "app",
+        "pattern": "Gmail \\- Email By Google"
+    },
+    {
+        "name": "app",
+        "pattern": "Gmail \\- Email by Google"
+    },
+    {
+        "name": "app",
+        "pattern": "SPLASHY\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "splashy\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Splashy\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "MONUMENT VALLEY"
+    },
+    {
+        "name": "app",
+        "pattern": "Monument Valley"
+    },
+    {
+        "name": "app",
+        "pattern": "monument valley"
+    },
+    {
+        "name": "app",
+        "pattern": "word search pro‧"
+    },
+    {
+        "name": "app",
+        "pattern": "WORD SEARCH PRO‧"
+    },
+    {
+        "name": "app",
+        "pattern": "Word Search Pro‧"
+    },
+    {
+        "name": "app",
+        "pattern": "glitché"
+    },
+    {
+        "name": "app",
+        "pattern": "GLITCHÉ"
+    },
+    {
+        "name": "app",
+        "pattern": "Glitché"
+    },
+    {
+        "name": "app",
+        "pattern": "Monument Valley 1 and 2"
+    },
+    {
+        "name": "app",
+        "pattern": "monument valley 1 and 2"
+    },
+    {
+        "name": "app",
+        "pattern": "MONUMENT VALLEY 1 AND 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Monument Valley 1 And 2"
+    },
+    {
+        "name": "app",
+        "pattern": "bingo blitz \\- bingo games"
+    },
+    {
+        "name": "app",
+        "pattern": "BINGO BLITZ \\- BINGO GAMES"
+    },
+    {
+        "name": "app",
+        "pattern": "Bingo Blitz \\- Bingo Games"
+    },
+    {
+        "name": "app",
+        "pattern": "GUNS OF GLORY"
+    },
+    {
+        "name": "app",
+        "pattern": "guns of glory"
+    },
+    {
+        "name": "app",
+        "pattern": "Guns Of Glory"
+    },
+    {
+        "name": "app",
+        "pattern": "Guns of Glory"
+    },
+    {
+        "name": "app",
+        "pattern": "aaptiv\\: \\#1 audio fitness app"
+    },
+    {
+        "name": "app",
+        "pattern": "AAPTIV\\: \\#1 AUDIO FITNESS APP"
+    },
+    {
+        "name": "app",
+        "pattern": "Aaptiv\\: \\#1 Audio Fitness App"
+    },
+    {
+        "name": "app",
+        "pattern": "WORD SWAG \\- COOL FONTS"
+    },
+    {
+        "name": "app",
+        "pattern": "word swag \\- cool fonts"
+    },
+    {
+        "name": "app",
+        "pattern": "Word Swag \\- Cool Fonts"
+    },
+    {
+        "name": "app",
+        "pattern": "Will It Crush\\?"
+    },
+    {
+        "name": "app",
+        "pattern": "WILL IT CRUSH\\?"
+    },
+    {
+        "name": "app",
+        "pattern": "Will it Crush\\?"
+    },
+    {
+        "name": "app",
+        "pattern": "will it crush\\?"
+    },
+    {
+        "name": "app",
+        "pattern": "HOTSPOTSHIELD VPN \\& WIFI PROXY"
+    },
+    {
+        "name": "app",
+        "pattern": "hotspotshield vpn \\& wifi proxy"
+    },
+    {
+        "name": "app",
+        "pattern": "HotspotShield VPN \\& Wifi Proxy"
+    },
+    {
+        "name": "app",
+        "pattern": "Hotspotshield Vpn \\& Wifi Proxy"
+    },
+    {
+        "name": "app",
+        "pattern": "autosleep tracker for watch"
+    },
+    {
+        "name": "app",
+        "pattern": "AUTOSLEEP TRACKER FOR WATCH"
+    },
+    {
+        "name": "app",
+        "pattern": "Autosleep Tracker For Watch"
+    },
+    {
+        "name": "app",
+        "pattern": "AutoSleep Tracker for Watch"
+    },
+    {
+        "name": "app",
+        "pattern": "golf clash"
+    },
+    {
+        "name": "app",
+        "pattern": "Golf Clash"
+    },
+    {
+        "name": "app",
+        "pattern": "GOLF CLASH"
+    },
+    {
+        "name": "app",
+        "pattern": "7 Minute Workout Challenge"
+    },
+    {
+        "name": "app",
+        "pattern": "7 MINUTE WORKOUT CHALLENGE"
+    },
+    {
+        "name": "app",
+        "pattern": "7 minute workout challenge"
+    },
+    {
+        "name": "app",
+        "pattern": "SCANNER PRO"
+    },
+    {
+        "name": "app",
+        "pattern": "Scanner Pro"
+    },
+    {
+        "name": "app",
+        "pattern": "scanner pro"
+    },
+    {
+        "name": "app",
+        "pattern": "EMOJI \\- INTEXTMOJI™ PRO \\;\\)"
+    },
+    {
+        "name": "app",
+        "pattern": "Emoji \\- Intextmoji™ Pro \\;\\)"
+    },
+    {
+        "name": "app",
+        "pattern": "emoji \\- intextmoji™ pro \\;\\)"
+    },
+    {
+        "name": "app",
+        "pattern": "Emoji \\- inTextMoji™ Pro \\;\\)"
+    },
+    {
+        "name": "app",
+        "pattern": "Vsco"
+    },
+    {
+        "name": "app",
+        "pattern": "vsco"
+    },
+    {
+        "name": "app",
+        "pattern": "VSCO"
+    },
+    {
+        "name": "app",
+        "pattern": "1 second everyday\\: video diary"
+    },
+    {
+        "name": "app",
+        "pattern": "1 SECOND EVERYDAY\\: VIDEO DIARY"
+    },
+    {
+        "name": "app",
+        "pattern": "1 Second Everyday\\: Video Diary"
+    },
+    {
+        "name": "app",
+        "pattern": "UBER EATS\\: FOOD DELIVERY"
+    },
+    {
+        "name": "app",
+        "pattern": "uber eats\\: food delivery"
+    },
+    {
+        "name": "app",
+        "pattern": "Uber Eats\\: Food Delivery"
+    },
+    {
+        "name": "app",
+        "pattern": "Final Fantasy XV\\: A New Empire"
+    },
+    {
+        "name": "app",
+        "pattern": "Final Fantasy Xv\\: A New Empire"
+    },
+    {
+        "name": "app",
+        "pattern": "final fantasy xv\\: a new empire"
+    },
+    {
+        "name": "app",
+        "pattern": "FINAL FANTASY XV\\: A NEW EMPIRE"
+    },
+    {
+        "name": "app",
+        "pattern": "Disney Emoji Blitz"
+    },
+    {
+        "name": "app",
+        "pattern": "DISNEY EMOJI BLITZ"
+    },
+    {
+        "name": "app",
+        "pattern": "disney emoji blitz"
+    },
+    {
+        "name": "app",
+        "pattern": "clash of kings \\- cok"
+    },
+    {
+        "name": "app",
+        "pattern": "Clash Of Kings \\- Cok"
+    },
+    {
+        "name": "app",
+        "pattern": "Clash of Kings \\- CoK"
+    },
+    {
+        "name": "app",
+        "pattern": "CLASH OF KINGS \\- COK"
+    },
+    {
+        "name": "app",
+        "pattern": "TOCA LIFE\\: PETS"
+    },
+    {
+        "name": "app",
+        "pattern": "toca life\\: pets"
+    },
+    {
+        "name": "app",
+        "pattern": "Toca Life\\: Pets"
+    },
+    {
+        "name": "app",
+        "pattern": "VHS Camcorder"
+    },
+    {
+        "name": "app",
+        "pattern": "Vhs Camcorder"
+    },
+    {
+        "name": "app",
+        "pattern": "VHS CAMCORDER"
+    },
+    {
+        "name": "app",
+        "pattern": "vhs camcorder"
+    },
+    {
+        "name": "app",
+        "pattern": "Poshmark"
+    },
+    {
+        "name": "app",
+        "pattern": "poshmark"
+    },
+    {
+        "name": "app",
+        "pattern": "POSHMARK"
+    },
+    {
+        "name": "app",
+        "pattern": "letgo\\: buy \\& sell secondhand"
+    },
+    {
+        "name": "app",
+        "pattern": "Letgo\\: Buy \\& Sell Secondhand"
+    },
+    {
+        "name": "app",
+        "pattern": "letgo\\: Buy \\& Sell Secondhand"
+    },
+    {
+        "name": "app",
+        "pattern": "LETGO\\: BUY \\& SELL SECONDHAND"
+    },
+    {
+        "name": "app",
+        "pattern": "fishdom"
+    },
+    {
+        "name": "app",
+        "pattern": "Fishdom"
+    },
+    {
+        "name": "app",
+        "pattern": "FISHDOM"
+    },
+    {
+        "name": "app",
+        "pattern": "Forest \\- Stay Focused"
+    },
+    {
+        "name": "app",
+        "pattern": "FOREST \\- STAY FOCUSED"
+    },
+    {
+        "name": "app",
+        "pattern": "forest \\- stay focused"
+    },
+    {
+        "name": "app",
+        "pattern": "Forest \\- Stay focused"
+    },
+    {
+        "name": "app",
+        "pattern": "fire up\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "FIRE UP\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Fire Up\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "FIND MY FAMILY\\, FRIENDS\\, PHONE"
+    },
+    {
+        "name": "app",
+        "pattern": "find my family\\, friends\\, phone"
+    },
+    {
+        "name": "app",
+        "pattern": "Find My Family\\, Friends\\, Phone"
+    },
+    {
+        "name": "app",
+        "pattern": "BetterMe\\: Weight Loss Workouts"
+    },
+    {
+        "name": "app",
+        "pattern": "betterme\\: weight loss workouts"
+    },
+    {
+        "name": "app",
+        "pattern": "BETTERME\\: WEIGHT LOSS WORKOUTS"
+    },
+    {
+        "name": "app",
+        "pattern": "Betterme\\: Weight Loss Workouts"
+    },
+    {
+        "name": "app",
+        "pattern": "design home"
+    },
+    {
+        "name": "app",
+        "pattern": "Design Home"
+    },
+    {
+        "name": "app",
+        "pattern": "DESIGN HOME"
+    },
+    {
+        "name": "app",
+        "pattern": "snapchat"
+    },
+    {
+        "name": "app",
+        "pattern": "SNAPCHAT"
+    },
+    {
+        "name": "app",
+        "pattern": "Snapchat"
+    },
+    {
+        "name": "app",
+        "pattern": "Granny"
+    },
+    {
+        "name": "app",
+        "pattern": "GRANNY"
+    },
+    {
+        "name": "app",
+        "pattern": "granny"
+    },
+    {
+        "name": "app",
+        "pattern": "Exploding Kittens®"
+    },
+    {
+        "name": "app",
+        "pattern": "EXPLODING KITTENS®"
+    },
+    {
+        "name": "app",
+        "pattern": "exploding kittens®"
+    },
+    {
+        "name": "app",
+        "pattern": "Knife Hit"
+    },
+    {
+        "name": "app",
+        "pattern": "KNIFE HIT"
+    },
+    {
+        "name": "app",
+        "pattern": "knife hit"
+    },
+    {
+        "name": "app",
+        "pattern": "ENLIGHT"
+    },
+    {
+        "name": "app",
+        "pattern": "Enlight"
+    },
+    {
+        "name": "app",
+        "pattern": "enlight"
+    },
+    {
+        "name": "app",
+        "pattern": "love nikki\\-dress up queen"
+    },
+    {
+        "name": "app",
+        "pattern": "LOVE NIKKI\\-DRESS UP QUEEN"
+    },
+    {
+        "name": "app",
+        "pattern": "Love Nikki\\-Dress Up Queen"
+    },
+    {
+        "name": "app",
+        "pattern": "Love Nikki\\-Dress UP Queen"
+    },
+    {
+        "name": "app",
+        "pattern": "R\\-Play \\- Remote Play for the PS4"
+    },
+    {
+        "name": "app",
+        "pattern": "R\\-PLAY \\- REMOTE PLAY FOR THE PS4"
+    },
+    {
+        "name": "app",
+        "pattern": "r\\-play \\- remote play for the ps4"
+    },
+    {
+        "name": "app",
+        "pattern": "R\\-Play \\- Remote Play For The Ps4"
+    },
+    {
+        "name": "app",
+        "pattern": "Slots Casino \\- House Of Fun"
+    },
+    {
+        "name": "app",
+        "pattern": "SLOTS CASINO \\- HOUSE OF FUN"
+    },
+    {
+        "name": "app",
+        "pattern": "Slots Casino \\- House of Fun"
+    },
+    {
+        "name": "app",
+        "pattern": "slots casino \\- house of fun"
+    },
+    {
+        "name": "app",
+        "pattern": "fire emblem heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "Fire Emblem Heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "FIRE EMBLEM HEROES"
+    },
+    {
+        "name": "app",
+        "pattern": "halide camera"
+    },
+    {
+        "name": "app",
+        "pattern": "Halide Camera"
+    },
+    {
+        "name": "app",
+        "pattern": "HALIDE CAMERA"
+    },
+    {
+        "name": "app",
+        "pattern": "TOCA KITCHEN 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Toca Kitchen 2"
+    },
+    {
+        "name": "app",
+        "pattern": "toca kitchen 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Twisty Road\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "TWISTY ROAD\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "twisty road\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "PIXEL GUN 3D"
+    },
+    {
+        "name": "app",
+        "pattern": "Pixel Gun 3D"
+    },
+    {
+        "name": "app",
+        "pattern": "pixel gun 3d"
+    },
+    {
+        "name": "app",
+        "pattern": "yahoo mail"
+    },
+    {
+        "name": "app",
+        "pattern": "Yahoo Mail"
+    },
+    {
+        "name": "app",
+        "pattern": "YAHOO MAIL"
+    },
+    {
+        "name": "app",
+        "pattern": "aliexpress shopping app"
+    },
+    {
+        "name": "app",
+        "pattern": "Aliexpress Shopping App"
+    },
+    {
+        "name": "app",
+        "pattern": "AliExpress Shopping App"
+    },
+    {
+        "name": "app",
+        "pattern": "ALIEXPRESS SHOPPING APP"
+    },
+    {
+        "name": "app",
+        "pattern": "gardenscapes"
+    },
+    {
+        "name": "app",
+        "pattern": "GARDENSCAPES"
+    },
+    {
+        "name": "app",
+        "pattern": "Gardenscapes"
+    },
+    {
+        "name": "app",
+        "pattern": "FARM HEROES SAGA"
+    },
+    {
+        "name": "app",
+        "pattern": "Farm Heroes Saga"
+    },
+    {
+        "name": "app",
+        "pattern": "farm heroes saga"
+    },
+    {
+        "name": "app",
+        "pattern": "waze navigation \\& live traffic"
+    },
+    {
+        "name": "app",
+        "pattern": "WAZE NAVIGATION \\& LIVE TRAFFIC"
+    },
+    {
+        "name": "app",
+        "pattern": "Waze Navigation \\& Live Traffic"
+    },
+    {
+        "name": "app",
+        "pattern": "HEAR MY BABY HEARTBEAT APP"
+    },
+    {
+        "name": "app",
+        "pattern": "hear my baby heartbeat app"
+    },
+    {
+        "name": "app",
+        "pattern": "Hear My Baby Heartbeat App"
+    },
+    {
+        "name": "app",
+        "pattern": "UNICORN \\- Color by Number Game"
+    },
+    {
+        "name": "app",
+        "pattern": "UNICORN \\- COLOR BY NUMBER GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "Unicorn \\- Color By Number Game"
+    },
+    {
+        "name": "app",
+        "pattern": "unicorn \\- color by number game"
+    },
+    {
+        "name": "app",
+        "pattern": "MY MACROS\\+ \\| DIET \\& CALORIES"
+    },
+    {
+        "name": "app",
+        "pattern": "My Macros\\+ \\| Diet \\& Calories"
+    },
+    {
+        "name": "app",
+        "pattern": "my macros\\+ \\| diet \\& calories"
+    },
+    {
+        "name": "app",
+        "pattern": "Superimpose"
+    },
+    {
+        "name": "app",
+        "pattern": "superimpose"
+    },
+    {
+        "name": "app",
+        "pattern": "SUPERIMPOSE"
+    },
+    {
+        "name": "app",
+        "pattern": "CHOICES\\: STORIES YOU PLAY"
+    },
+    {
+        "name": "app",
+        "pattern": "Choices\\: Stories You Play"
+    },
+    {
+        "name": "app",
+        "pattern": "choices\\: stories you play"
+    },
+    {
+        "name": "app",
+        "pattern": "earn to die 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Earn to Die 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Earn To Die 2"
+    },
+    {
+        "name": "app",
+        "pattern": "EARN TO DIE 2"
+    },
+    {
+        "name": "app",
+        "pattern": "assassin\\'s creed identity"
+    },
+    {
+        "name": "app",
+        "pattern": "Assassin\\'s Creed Identity"
+    },
+    {
+        "name": "app",
+        "pattern": "Assassin\\'S Creed Identity"
+    },
+    {
+        "name": "app",
+        "pattern": "ASSASSIN\\'S CREED IDENTITY"
+    },
+    {
+        "name": "app",
+        "pattern": "CAR VS COPS"
+    },
+    {
+        "name": "app",
+        "pattern": "Car vs Cops"
+    },
+    {
+        "name": "app",
+        "pattern": "car vs cops"
+    },
+    {
+        "name": "app",
+        "pattern": "Car Vs Cops"
+    },
+    {
+        "name": "app",
+        "pattern": "SUBWAY SURFERS"
+    },
+    {
+        "name": "app",
+        "pattern": "subway surfers"
+    },
+    {
+        "name": "app",
+        "pattern": "Subway Surfers"
+    },
+    {
+        "name": "app",
+        "pattern": "Piano Tiles 2™"
+    },
+    {
+        "name": "app",
+        "pattern": "PIANO TILES 2™"
+    },
+    {
+        "name": "app",
+        "pattern": "piano tiles 2™"
+    },
+    {
+        "name": "app",
+        "pattern": "Houseparty"
+    },
+    {
+        "name": "app",
+        "pattern": "HOUSEPARTY"
+    },
+    {
+        "name": "app",
+        "pattern": "houseparty"
+    },
+    {
+        "name": "app",
+        "pattern": "GroupMe"
+    },
+    {
+        "name": "app",
+        "pattern": "Groupme"
+    },
+    {
+        "name": "app",
+        "pattern": "groupme"
+    },
+    {
+        "name": "app",
+        "pattern": "GROUPME"
+    },
+    {
+        "name": "app",
+        "pattern": "Angry Birds 2"
+    },
+    {
+        "name": "app",
+        "pattern": "ANGRY BIRDS 2"
+    },
+    {
+        "name": "app",
+        "pattern": "angry birds 2"
+    },
+    {
+        "name": "app",
+        "pattern": "roblox"
+    },
+    {
+        "name": "app",
+        "pattern": "Roblox"
+    },
+    {
+        "name": "app",
+        "pattern": "ROBLOX"
+    },
+    {
+        "name": "app",
+        "pattern": "SPONGEBOB MOVES IN"
+    },
+    {
+        "name": "app",
+        "pattern": "SpongeBob Moves In"
+    },
+    {
+        "name": "app",
+        "pattern": "Spongebob Moves In"
+    },
+    {
+        "name": "app",
+        "pattern": "spongebob moves in"
+    },
+    {
+        "name": "app",
+        "pattern": "Heartwatch\\. Heart \\& Activity"
+    },
+    {
+        "name": "app",
+        "pattern": "heartwatch\\. heart \\& activity"
+    },
+    {
+        "name": "app",
+        "pattern": "HEARTWATCH\\. HEART \\& ACTIVITY"
+    },
+    {
+        "name": "app",
+        "pattern": "HeartWatch\\. Heart \\& Activity"
+    },
+    {
+        "name": "app",
+        "pattern": "The Escapists"
+    },
+    {
+        "name": "app",
+        "pattern": "THE ESCAPISTS"
+    },
+    {
+        "name": "app",
+        "pattern": "the escapists"
+    },
+    {
+        "name": "app",
+        "pattern": "GEOMETRY DASH"
+    },
+    {
+        "name": "app",
+        "pattern": "Geometry Dash"
+    },
+    {
+        "name": "app",
+        "pattern": "geometry dash"
+    },
+    {
+        "name": "app",
+        "pattern": "afterlight 2"
+    },
+    {
+        "name": "app",
+        "pattern": "AFTERLIGHT 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Afterlight 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Amazon – Shopping made easy"
+    },
+    {
+        "name": "app",
+        "pattern": "AMAZON – SHOPPING MADE EASY"
+    },
+    {
+        "name": "app",
+        "pattern": "Amazon – Shopping Made Easy"
+    },
+    {
+        "name": "app",
+        "pattern": "amazon – shopping made easy"
+    },
+    {
+        "name": "app",
+        "pattern": "Panda Pop \\- Bubble Shooter"
+    },
+    {
+        "name": "app",
+        "pattern": "panda pop \\- bubble shooter"
+    },
+    {
+        "name": "app",
+        "pattern": "PANDA POP \\- BUBBLE SHOOTER"
+    },
+    {
+        "name": "app",
+        "pattern": "five nights at freddy\\'s"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights at Freddy\\'s"
+    },
+    {
+        "name": "app",
+        "pattern": "FIVE NIGHTS AT FREDDY\\'S"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights At Freddy\\'S"
+    },
+    {
+        "name": "app",
+        "pattern": "My Talking Pet"
+    },
+    {
+        "name": "app",
+        "pattern": "my talking pet"
+    },
+    {
+        "name": "app",
+        "pattern": "MY TALKING PET"
+    },
+    {
+        "name": "app",
+        "pattern": "xbox"
+    },
+    {
+        "name": "app",
+        "pattern": "Xbox"
+    },
+    {
+        "name": "app",
+        "pattern": "XBOX"
+    },
+    {
+        "name": "app",
+        "pattern": "Alto\\'s Odyssey"
+    },
+    {
+        "name": "app",
+        "pattern": "ALTO\\'S ODYSSEY"
+    },
+    {
+        "name": "app",
+        "pattern": "Alto\\'S Odyssey"
+    },
+    {
+        "name": "app",
+        "pattern": "alto\\'s odyssey"
+    },
+    {
+        "name": "app",
+        "pattern": "mercari\\: the selling app"
+    },
+    {
+        "name": "app",
+        "pattern": "Mercari\\: The Selling App"
+    },
+    {
+        "name": "app",
+        "pattern": "MERCARI\\: THE SELLING APP"
+    },
+    {
+        "name": "app",
+        "pattern": "homescapes"
+    },
+    {
+        "name": "app",
+        "pattern": "Homescapes"
+    },
+    {
+        "name": "app",
+        "pattern": "HOMESCAPES"
+    },
+    {
+        "name": "app",
+        "pattern": "Sky Ball"
+    },
+    {
+        "name": "app",
+        "pattern": "sky ball"
+    },
+    {
+        "name": "app",
+        "pattern": "SKY BALL"
+    },
+    {
+        "name": "app",
+        "pattern": "SPOTIFY MUSIC"
+    },
+    {
+        "name": "app",
+        "pattern": "Spotify Music"
+    },
+    {
+        "name": "app",
+        "pattern": "spotify music"
+    },
+    {
+        "name": "app",
+        "pattern": "The Game of Life"
+    },
+    {
+        "name": "app",
+        "pattern": "The Game Of Life"
+    },
+    {
+        "name": "app",
+        "pattern": "THE GAME OF LIFE"
+    },
+    {
+        "name": "app",
+        "pattern": "the game of life"
+    },
+    {
+        "name": "app",
+        "pattern": "EMOJI ME KEYBOARD \\| ZMOJI"
+    },
+    {
+        "name": "app",
+        "pattern": "Emoji Me Keyboard \\| Zmoji"
+    },
+    {
+        "name": "app",
+        "pattern": "emoji me keyboard \\| zmoji"
+    },
+    {
+        "name": "app",
+        "pattern": "Invasion\\: Modern Empire"
+    },
+    {
+        "name": "app",
+        "pattern": "invasion\\: modern empire"
+    },
+    {
+        "name": "app",
+        "pattern": "INVASION\\: MODERN EMPIRE"
+    },
+    {
+        "name": "app",
+        "pattern": "Musical\\.Ly"
+    },
+    {
+        "name": "app",
+        "pattern": "musical\\.ly"
+    },
+    {
+        "name": "app",
+        "pattern": "MUSICAL\\.LY"
+    },
+    {
+        "name": "app",
+        "pattern": "infinite flight"
+    },
+    {
+        "name": "app",
+        "pattern": "INFINITE FLIGHT"
+    },
+    {
+        "name": "app",
+        "pattern": "Infinite Flight"
+    },
+    {
+        "name": "app",
+        "pattern": "Reigns"
+    },
+    {
+        "name": "app",
+        "pattern": "reigns"
+    },
+    {
+        "name": "app",
+        "pattern": "REIGNS"
+    },
+    {
+        "name": "app",
+        "pattern": "انتقام السلاطين"
+    },
+    {
+        "name": "app",
+        "pattern": "jackpot magic slots™ \\& casino"
+    },
+    {
+        "name": "app",
+        "pattern": "Jackpot Magic Slots™ \\& Casino"
+    },
+    {
+        "name": "app",
+        "pattern": "JACKPOT MAGIC SLOTS™ \\& CASINO"
+    },
+    {
+        "name": "app",
+        "pattern": "skater \\- skate legendary spots\\, perfect board feel"
+    },
+    {
+        "name": "app",
+        "pattern": "Skater \\- Skate Legendary Spots\\, Perfect Board Feel"
+    },
+    {
+        "name": "app",
+        "pattern": "SKATER \\- SKATE LEGENDARY SPOTS\\, PERFECT BOARD FEEL"
+    },
+    {
+        "name": "app",
+        "pattern": "photo scanner plus"
+    },
+    {
+        "name": "app",
+        "pattern": "Photo Scanner Plus"
+    },
+    {
+        "name": "app",
+        "pattern": "PHOTO SCANNER PLUS"
+    },
+    {
+        "name": "app",
+        "pattern": "The Bonfire\\: Forsaken Lands"
+    },
+    {
+        "name": "app",
+        "pattern": "the bonfire\\: forsaken lands"
+    },
+    {
+        "name": "app",
+        "pattern": "THE BONFIRE\\: FORSAKEN LANDS"
+    },
+    {
+        "name": "app",
+        "pattern": "SOLITAIRE TRIPEAKS – CARD GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "Solitaire Tripeaks – Card Game"
+    },
+    {
+        "name": "app",
+        "pattern": "solitaire tripeaks – card game"
+    },
+    {
+        "name": "app",
+        "pattern": "Slots\\: Jackpot Party Casino"
+    },
+    {
+        "name": "app",
+        "pattern": "slots\\: jackpot party casino"
+    },
+    {
+        "name": "app",
+        "pattern": "SLOTS\\: JACKPOT PARTY CASINO"
+    },
+    {
+        "name": "app",
+        "pattern": "PROCAM 5"
+    },
+    {
+        "name": "app",
+        "pattern": "ProCam 5"
+    },
+    {
+        "name": "app",
+        "pattern": "Procam 5"
+    },
+    {
+        "name": "app",
+        "pattern": "procam 5"
+    },
+    {
+        "name": "app",
+        "pattern": "THE ROOM\\: OLD SINS"
+    },
+    {
+        "name": "app",
+        "pattern": "The Room\\: Old Sins"
+    },
+    {
+        "name": "app",
+        "pattern": "the room\\: old sins"
+    },
+    {
+        "name": "app",
+        "pattern": "IHEARTRADIO"
+    },
+    {
+        "name": "app",
+        "pattern": "Iheartradio"
+    },
+    {
+        "name": "app",
+        "pattern": "iHeartRadio"
+    },
+    {
+        "name": "app",
+        "pattern": "iheartradio"
+    },
+    {
+        "name": "app",
+        "pattern": "CYTUS II"
+    },
+    {
+        "name": "app",
+        "pattern": "Cytus II"
+    },
+    {
+        "name": "app",
+        "pattern": "cytus ii"
+    },
+    {
+        "name": "app",
+        "pattern": "Cytus Ii"
+    },
+    {
+        "name": "app",
+        "pattern": "NBA JAM by EA SPORTS™"
+    },
+    {
+        "name": "app",
+        "pattern": "nba jam by ea sports™"
+    },
+    {
+        "name": "app",
+        "pattern": "Nba Jam By Ea Sports™"
+    },
+    {
+        "name": "app",
+        "pattern": "NBA JAM BY EA SPORTS™"
+    },
+    {
+        "name": "app",
+        "pattern": "Shazam"
+    },
+    {
+        "name": "app",
+        "pattern": "SHAZAM"
+    },
+    {
+        "name": "app",
+        "pattern": "shazam"
+    },
+    {
+        "name": "app",
+        "pattern": "WORDSCAPES"
+    },
+    {
+        "name": "app",
+        "pattern": "Wordscapes"
+    },
+    {
+        "name": "app",
+        "pattern": "wordscapes"
+    },
+    {
+        "name": "app",
+        "pattern": "TINY SCANNER\\+ \\- PDF SCANNER TO SCAN DOCUMENT\\, RECEIPT \\& FAX"
+    },
+    {
+        "name": "app",
+        "pattern": "Tiny Scanner\\+ \\- PDF scanner to scan document\\, receipt \\& fax"
+    },
+    {
+        "name": "app",
+        "pattern": "Tiny Scanner\\+ \\- Pdf Scanner To Scan Document\\, Receipt \\& Fax"
+    },
+    {
+        "name": "app",
+        "pattern": "tiny scanner\\+ \\- pdf scanner to scan document\\, receipt \\& fax"
+    },
+    {
+        "name": "app",
+        "pattern": "mlb at bat"
+    },
+    {
+        "name": "app",
+        "pattern": "Mlb At Bat"
+    },
+    {
+        "name": "app",
+        "pattern": "MLB At Bat"
+    },
+    {
+        "name": "app",
+        "pattern": "MLB AT BAT"
+    },
+    {
+        "name": "app",
+        "pattern": "GOOGLE MAPS \\- GPS NAVIGATION"
+    },
+    {
+        "name": "app",
+        "pattern": "Google Maps \\- GPS Navigation"
+    },
+    {
+        "name": "app",
+        "pattern": "Google Maps \\- Gps Navigation"
+    },
+    {
+        "name": "app",
+        "pattern": "google maps \\- gps navigation"
+    },
+    {
+        "name": "app",
+        "pattern": "My Baby\\'S Beat"
+    },
+    {
+        "name": "app",
+        "pattern": "MY BABY\\'S BEAT"
+    },
+    {
+        "name": "app",
+        "pattern": "My Baby\\'s Beat"
+    },
+    {
+        "name": "app",
+        "pattern": "my baby\\'s beat"
+    },
+    {
+        "name": "app",
+        "pattern": "KIM KARDASHIAN\\: HOLLYWOOD"
+    },
+    {
+        "name": "app",
+        "pattern": "kim kardashian\\: hollywood"
+    },
+    {
+        "name": "app",
+        "pattern": "Kim Kardashian\\: Hollywood"
+    },
+    {
+        "name": "app",
+        "pattern": "HUJI CAM"
+    },
+    {
+        "name": "app",
+        "pattern": "Huji Cam"
+    },
+    {
+        "name": "app",
+        "pattern": "huji cam"
+    },
+    {
+        "name": "app",
+        "pattern": "Snow Day Calculator"
+    },
+    {
+        "name": "app",
+        "pattern": "snow day calculator"
+    },
+    {
+        "name": "app",
+        "pattern": "SNOW DAY CALCULATOR"
+    },
+    {
+        "name": "app",
+        "pattern": "Terraria"
+    },
+    {
+        "name": "app",
+        "pattern": "TERRARIA"
+    },
+    {
+        "name": "app",
+        "pattern": "terraria"
+    },
+    {
+        "name": "app",
+        "pattern": "netflix"
+    },
+    {
+        "name": "app",
+        "pattern": "Netflix"
+    },
+    {
+        "name": "app",
+        "pattern": "NETFLIX"
+    },
+    {
+        "name": "app",
+        "pattern": "LORDS MOBILE"
+    },
+    {
+        "name": "app",
+        "pattern": "Lords Mobile"
+    },
+    {
+        "name": "app",
+        "pattern": "lords mobile"
+    },
+    {
+        "name": "app",
+        "pattern": "star wars™\\: galaxy of heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "STAR WARS™\\: GALAXY OF HEROES"
+    },
+    {
+        "name": "app",
+        "pattern": "Star Wars™\\: Galaxy of Heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "Star Wars™\\: Galaxy Of Heroes"
+    },
+    {
+        "name": "app",
+        "pattern": "COLOR BY NUMBER\\: COLORING BOOK"
+    },
+    {
+        "name": "app",
+        "pattern": "Color by Number\\: Coloring Book"
+    },
+    {
+        "name": "app",
+        "pattern": "Color By Number\\: Coloring Book"
+    },
+    {
+        "name": "app",
+        "pattern": "color by number\\: coloring book"
+    },
+    {
+        "name": "app",
+        "pattern": "RECOLOR \\- COLORING BOOK"
+    },
+    {
+        "name": "app",
+        "pattern": "Recolor \\- Coloring Book"
+    },
+    {
+        "name": "app",
+        "pattern": "recolor \\- coloring book"
+    },
+    {
+        "name": "app",
+        "pattern": "AIRBNB"
+    },
+    {
+        "name": "app",
+        "pattern": "airbnb"
+    },
+    {
+        "name": "app",
+        "pattern": "Airbnb"
+    },
+    {
+        "name": "app",
+        "pattern": "8mm vintage camera"
+    },
+    {
+        "name": "app",
+        "pattern": "8Mm Vintage Camera"
+    },
+    {
+        "name": "app",
+        "pattern": "8MM VINTAGE CAMERA"
+    },
+    {
+        "name": "app",
+        "pattern": "8mm Vintage Camera"
+    },
+    {
+        "name": "app",
+        "pattern": "Heart of Vegas – Slots Casino"
+    },
+    {
+        "name": "app",
+        "pattern": "heart of vegas – slots casino"
+    },
+    {
+        "name": "app",
+        "pattern": "HEART OF VEGAS – SLOTS CASINO"
+    },
+    {
+        "name": "app",
+        "pattern": "Heart Of Vegas – Slots Casino"
+    },
+    {
+        "name": "app",
+        "pattern": "World Series Of Poker \\- Wsop"
+    },
+    {
+        "name": "app",
+        "pattern": "WORLD SERIES OF POKER \\- WSOP"
+    },
+    {
+        "name": "app",
+        "pattern": "World Series of Poker \\- WSOP"
+    },
+    {
+        "name": "app",
+        "pattern": "world series of poker \\- wsop"
+    },
+    {
+        "name": "app",
+        "pattern": "Clash Of Clans"
+    },
+    {
+        "name": "app",
+        "pattern": "CLASH OF CLANS"
+    },
+    {
+        "name": "app",
+        "pattern": "clash of clans"
+    },
+    {
+        "name": "app",
+        "pattern": "Clash of Clans"
+    },
+    {
+        "name": "app",
+        "pattern": "Pandora Music"
+    },
+    {
+        "name": "app",
+        "pattern": "PANDORA MUSIC"
+    },
+    {
+        "name": "app",
+        "pattern": "pandora music"
+    },
+    {
+        "name": "app",
+        "pattern": "War Dragons"
+    },
+    {
+        "name": "app",
+        "pattern": "WAR DRAGONS"
+    },
+    {
+        "name": "app",
+        "pattern": "war dragons"
+    },
+    {
+        "name": "app",
+        "pattern": "SING\\! BY SMULE"
+    },
+    {
+        "name": "app",
+        "pattern": "Sing\\! by Smule"
+    },
+    {
+        "name": "app",
+        "pattern": "sing\\! by smule"
+    },
+    {
+        "name": "app",
+        "pattern": "Sing\\! By Smule"
+    },
+    {
+        "name": "app",
+        "pattern": "BULLY\\: ANNIVERSARY EDITION"
+    },
+    {
+        "name": "app",
+        "pattern": "bully\\: anniversary edition"
+    },
+    {
+        "name": "app",
+        "pattern": "Bully\\: Anniversary Edition"
+    },
+    {
+        "name": "app",
+        "pattern": "LAST DAY ON EARTH\\: SURVIVAL"
+    },
+    {
+        "name": "app",
+        "pattern": "Last Day On Earth\\: Survival"
+    },
+    {
+        "name": "app",
+        "pattern": "last day on earth\\: survival"
+    },
+    {
+        "name": "app",
+        "pattern": "Last Day on Earth\\: Survival"
+    },
+    {
+        "name": "app",
+        "pattern": "Wish \\- Shopping Made Fun"
+    },
+    {
+        "name": "app",
+        "pattern": "WISH \\- SHOPPING MADE FUN"
+    },
+    {
+        "name": "app",
+        "pattern": "wish \\- shopping made fun"
+    },
+    {
+        "name": "app",
+        "pattern": "Helix Jump"
+    },
+    {
+        "name": "app",
+        "pattern": "HELIX JUMP"
+    },
+    {
+        "name": "app",
+        "pattern": "helix jump"
+    },
+    {
+        "name": "app",
+        "pattern": "true skate"
+    },
+    {
+        "name": "app",
+        "pattern": "TRUE SKATE"
+    },
+    {
+        "name": "app",
+        "pattern": "True Skate"
+    },
+    {
+        "name": "app",
+        "pattern": "CASH APP"
+    },
+    {
+        "name": "app",
+        "pattern": "Cash App"
+    },
+    {
+        "name": "app",
+        "pattern": "cash app"
+    },
+    {
+        "name": "app",
+        "pattern": "hotschedules"
+    },
+    {
+        "name": "app",
+        "pattern": "HotSchedules"
+    },
+    {
+        "name": "app",
+        "pattern": "HOTSCHEDULES"
+    },
+    {
+        "name": "app",
+        "pattern": "Hotschedules"
+    },
+    {
+        "name": "app",
+        "pattern": "Cute CUT Pro"
+    },
+    {
+        "name": "app",
+        "pattern": "cute cut pro"
+    },
+    {
+        "name": "app",
+        "pattern": "CUTE CUT PRO"
+    },
+    {
+        "name": "app",
+        "pattern": "Cute Cut Pro"
+    },
+    {
+        "name": "app",
+        "pattern": "offerup \\- buy\\. sell\\. simple\\."
+    },
+    {
+        "name": "app",
+        "pattern": "OfferUp \\- Buy\\. Sell\\. Simple\\."
+    },
+    {
+        "name": "app",
+        "pattern": "OFFERUP \\- BUY\\. SELL\\. SIMPLE\\."
+    },
+    {
+        "name": "app",
+        "pattern": "Offerup \\- Buy\\. Sell\\. Simple\\."
+    },
+    {
+        "name": "app",
+        "pattern": "FIVE NIGHTS AT FREDDY\\'S\\: SISTER LOCATION"
+    },
+    {
+        "name": "app",
+        "pattern": "five nights at freddy\\'s\\: sister location"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights At Freddy\\'S\\: Sister Location"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights at Freddy\\'s\\: Sister Location"
+    },
+    {
+        "name": "app",
+        "pattern": "Toca Life\\: Hospital"
+    },
+    {
+        "name": "app",
+        "pattern": "TOCA LIFE\\: HOSPITAL"
+    },
+    {
+        "name": "app",
+        "pattern": "toca life\\: hospital"
+    },
+    {
+        "name": "app",
+        "pattern": "1line one\\-stroke puzzle game"
+    },
+    {
+        "name": "app",
+        "pattern": "1LINE one\\-stroke puzzle game"
+    },
+    {
+        "name": "app",
+        "pattern": "1Line One\\-Stroke Puzzle Game"
+    },
+    {
+        "name": "app",
+        "pattern": "1LINE ONE\\-STROKE PUZZLE GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "EPISODE \\- CHOOSE YOUR STORY"
+    },
+    {
+        "name": "app",
+        "pattern": "episode \\- choose your story"
+    },
+    {
+        "name": "app",
+        "pattern": "Episode \\- Choose Your Story"
+    },
+    {
+        "name": "app",
+        "pattern": "Sky Guide AR"
+    },
+    {
+        "name": "app",
+        "pattern": "Sky Guide Ar"
+    },
+    {
+        "name": "app",
+        "pattern": "sky guide ar"
+    },
+    {
+        "name": "app",
+        "pattern": "SKY GUIDE AR"
+    },
+    {
+        "name": "app",
+        "pattern": "Candy Crush Soda Saga"
+    },
+    {
+        "name": "app",
+        "pattern": "candy crush soda saga"
+    },
+    {
+        "name": "app",
+        "pattern": "CANDY CRUSH SODA SAGA"
+    },
+    {
+        "name": "app",
+        "pattern": "Yelp\\: Discover Local Favorites"
+    },
+    {
+        "name": "app",
+        "pattern": "yelp\\: discover local favorites"
+    },
+    {
+        "name": "app",
+        "pattern": "YELP\\: DISCOVER LOCAL FAVORITES"
+    },
+    {
+        "name": "app",
+        "pattern": "nba 2k18"
+    },
+    {
+        "name": "app",
+        "pattern": "NBA 2K18"
+    },
+    {
+        "name": "app",
+        "pattern": "Nba 2K18"
+    },
+    {
+        "name": "app",
+        "pattern": "TuneIn Radio\\: Music \\& Podcasts"
+    },
+    {
+        "name": "app",
+        "pattern": "TUNEIN RADIO\\: MUSIC \\& PODCASTS"
+    },
+    {
+        "name": "app",
+        "pattern": "Tunein Radio\\: Music \\& Podcasts"
+    },
+    {
+        "name": "app",
+        "pattern": "tunein radio\\: music \\& podcasts"
+    },
+    {
+        "name": "app",
+        "pattern": "goat simulator"
+    },
+    {
+        "name": "app",
+        "pattern": "Goat Simulator"
+    },
+    {
+        "name": "app",
+        "pattern": "GOAT SIMULATOR"
+    },
+    {
+        "name": "app",
+        "pattern": "Talking Tom Camp"
+    },
+    {
+        "name": "app",
+        "pattern": "talking tom camp"
+    },
+    {
+        "name": "app",
+        "pattern": "TALKING TOM CAMP"
+    },
+    {
+        "name": "app",
+        "pattern": "KIRAKIRA\\+"
+    },
+    {
+        "name": "app",
+        "pattern": "kirakira\\+"
+    },
+    {
+        "name": "app",
+        "pattern": "Kirakira\\+"
+    },
+    {
+        "name": "app",
+        "pattern": "PINTEREST"
+    },
+    {
+        "name": "app",
+        "pattern": "pinterest"
+    },
+    {
+        "name": "app",
+        "pattern": "Pinterest"
+    },
+    {
+        "name": "app",
+        "pattern": "SoundCloud \\- Music \\& Audio"
+    },
+    {
+        "name": "app",
+        "pattern": "soundcloud \\- music \\& audio"
+    },
+    {
+        "name": "app",
+        "pattern": "SOUNDCLOUD \\- MUSIC \\& AUDIO"
+    },
+    {
+        "name": "app",
+        "pattern": "Soundcloud \\- Music \\& Audio"
+    },
+    {
+        "name": "app",
+        "pattern": "Summoners War"
+    },
+    {
+        "name": "app",
+        "pattern": "summoners war"
+    },
+    {
+        "name": "app",
+        "pattern": "SUMMONERS WAR"
+    },
+    {
+        "name": "app",
+        "pattern": "Messenger"
+    },
+    {
+        "name": "app",
+        "pattern": "messenger"
+    },
+    {
+        "name": "app",
+        "pattern": "MESSENGER"
+    },
+    {
+        "name": "app",
+        "pattern": "the weather channel\\: forecast"
+    },
+    {
+        "name": "app",
+        "pattern": "THE WEATHER CHANNEL\\: FORECAST"
+    },
+    {
+        "name": "app",
+        "pattern": "The Weather Channel\\: Forecast"
+    },
+    {
+        "name": "app",
+        "pattern": "Norton Wifi Privacy Vpn"
+    },
+    {
+        "name": "app",
+        "pattern": "Norton WiFi Privacy VPN"
+    },
+    {
+        "name": "app",
+        "pattern": "NORTON WIFI PRIVACY VPN"
+    },
+    {
+        "name": "app",
+        "pattern": "norton wifi privacy vpn"
+    },
+    {
+        "name": "app",
+        "pattern": "PAPA\\'S FREEZERIA TO GO\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Papa\\'S Freezeria To Go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Papa\\'s Freezeria To Go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "papa\\'s freezeria to go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "PayPal\\: Mobile Cash"
+    },
+    {
+        "name": "app",
+        "pattern": "Paypal\\: Mobile Cash"
+    },
+    {
+        "name": "app",
+        "pattern": "PAYPAL\\: MOBILE CASH"
+    },
+    {
+        "name": "app",
+        "pattern": "paypal\\: mobile cash"
+    },
+    {
+        "name": "app",
+        "pattern": "super mario run"
+    },
+    {
+        "name": "app",
+        "pattern": "Super Mario Run"
+    },
+    {
+        "name": "app",
+        "pattern": "SUPER MARIO RUN"
+    },
+    {
+        "name": "app",
+        "pattern": "POKÉMON GO"
+    },
+    {
+        "name": "app",
+        "pattern": "Pokémon GO"
+    },
+    {
+        "name": "app",
+        "pattern": "Pokémon Go"
+    },
+    {
+        "name": "app",
+        "pattern": "pokémon go"
+    },
+    {
+        "name": "app",
+        "pattern": "toon blast"
+    },
+    {
+        "name": "app",
+        "pattern": "Toon Blast"
+    },
+    {
+        "name": "app",
+        "pattern": "TOON BLAST"
+    },
+    {
+        "name": "app",
+        "pattern": "TOUCHRETOUCH"
+    },
+    {
+        "name": "app",
+        "pattern": "touchretouch"
+    },
+    {
+        "name": "app",
+        "pattern": "TouchRetouch"
+    },
+    {
+        "name": "app",
+        "pattern": "Touchretouch"
+    },
+    {
+        "name": "app",
+        "pattern": "Google Docs"
+    },
+    {
+        "name": "app",
+        "pattern": "google docs"
+    },
+    {
+        "name": "app",
+        "pattern": "GOOGLE DOCS"
+    },
+    {
+        "name": "app",
+        "pattern": "DOUBLEDOWN CASINO SLOTS \\& MORE"
+    },
+    {
+        "name": "app",
+        "pattern": "doubledown casino slots \\& more"
+    },
+    {
+        "name": "app",
+        "pattern": "DoubleDown Casino Slots \\& More"
+    },
+    {
+        "name": "app",
+        "pattern": "Doubledown Casino Slots \\& More"
+    },
+    {
+        "name": "app",
+        "pattern": "Wizard Of Oz\\: Casino Slots"
+    },
+    {
+        "name": "app",
+        "pattern": "wizard of oz\\: casino slots"
+    },
+    {
+        "name": "app",
+        "pattern": "Wizard of Oz\\: Casino Slots"
+    },
+    {
+        "name": "app",
+        "pattern": "WIZARD OF OZ\\: CASINO SLOTS"
+    },
+    {
+        "name": "app",
+        "pattern": "Microsoft Outlook"
+    },
+    {
+        "name": "app",
+        "pattern": "microsoft outlook"
+    },
+    {
+        "name": "app",
+        "pattern": "MICROSOFT OUTLOOK"
+    },
+    {
+        "name": "app",
+        "pattern": "rolly vortex"
+    },
+    {
+        "name": "app",
+        "pattern": "ROLLY VORTEX"
+    },
+    {
+        "name": "app",
+        "pattern": "Rolly Vortex"
+    },
+    {
+        "name": "app",
+        "pattern": "headspace\\: meditation"
+    },
+    {
+        "name": "app",
+        "pattern": "Headspace\\: Meditation"
+    },
+    {
+        "name": "app",
+        "pattern": "HEADSPACE\\: MEDITATION"
+    },
+    {
+        "name": "app",
+        "pattern": "AMAZON PRIME VIDEO"
+    },
+    {
+        "name": "app",
+        "pattern": "amazon prime video"
+    },
+    {
+        "name": "app",
+        "pattern": "Amazon Prime Video"
+    },
+    {
+        "name": "app",
+        "pattern": "WHATSAPP MESSENGER"
+    },
+    {
+        "name": "app",
+        "pattern": "whatsapp messenger"
+    },
+    {
+        "name": "app",
+        "pattern": "WhatsApp Messenger"
+    },
+    {
+        "name": "app",
+        "pattern": "Whatsapp Messenger"
+    },
+    {
+        "name": "app",
+        "pattern": "Partymasters \\- Fun Idle Game"
+    },
+    {
+        "name": "app",
+        "pattern": "partymasters \\- fun idle game"
+    },
+    {
+        "name": "app",
+        "pattern": "PARTYMASTERS \\- FUN IDLE GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "candy crush jelly saga"
+    },
+    {
+        "name": "app",
+        "pattern": "Candy Crush Jelly Saga"
+    },
+    {
+        "name": "app",
+        "pattern": "CANDY CRUSH JELLY SAGA"
+    },
+    {
+        "name": "app",
+        "pattern": "HEADS UP\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "heads up\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Heads Up\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "flick home run \\!"
+    },
+    {
+        "name": "app",
+        "pattern": "FLICK HOME RUN \\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Flick Home Run \\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Puzzledom"
+    },
+    {
+        "name": "app",
+        "pattern": "puzzledom"
+    },
+    {
+        "name": "app",
+        "pattern": "PUZZLEDOM"
+    },
+    {
+        "name": "app",
+        "pattern": "Slotomania Slots\\: Vegas Casino"
+    },
+    {
+        "name": "app",
+        "pattern": "SLOTOMANIA SLOTS\\: VEGAS CASINO"
+    },
+    {
+        "name": "app",
+        "pattern": "slotomania slots\\: vegas casino"
+    },
+    {
+        "name": "app",
+        "pattern": "candy crush saga"
+    },
+    {
+        "name": "app",
+        "pattern": "Candy Crush Saga"
+    },
+    {
+        "name": "app",
+        "pattern": "CANDY CRUSH SAGA"
+    },
+    {
+        "name": "app",
+        "pattern": "Tidal"
+    },
+    {
+        "name": "app",
+        "pattern": "TIDAL"
+    },
+    {
+        "name": "app",
+        "pattern": "tidal"
+    },
+    {
+        "name": "app",
+        "pattern": "Crunchyroll \\- Everything Anime"
+    },
+    {
+        "name": "app",
+        "pattern": "crunchyroll \\- everything anime"
+    },
+    {
+        "name": "app",
+        "pattern": "CRUNCHYROLL \\- EVERYTHING ANIME"
+    },
+    {
+        "name": "app",
+        "pattern": "Kick the Buddy"
+    },
+    {
+        "name": "app",
+        "pattern": "kick the buddy"
+    },
+    {
+        "name": "app",
+        "pattern": "KICK THE BUDDY"
+    },
+    {
+        "name": "app",
+        "pattern": "Kick The Buddy"
+    },
+    {
+        "name": "app",
+        "pattern": "FACEBOOK"
+    },
+    {
+        "name": "app",
+        "pattern": "Facebook"
+    },
+    {
+        "name": "app",
+        "pattern": "facebook"
+    },
+    {
+        "name": "app",
+        "pattern": "florence"
+    },
+    {
+        "name": "app",
+        "pattern": "Florence"
+    },
+    {
+        "name": "app",
+        "pattern": "FLORENCE"
+    },
+    {
+        "name": "app",
+        "pattern": "MINECRAFT"
+    },
+    {
+        "name": "app",
+        "pattern": "minecraft"
+    },
+    {
+        "name": "app",
+        "pattern": "Minecraft"
+    },
+    {
+        "name": "app",
+        "pattern": "sideline \\- second phone number"
+    },
+    {
+        "name": "app",
+        "pattern": "SIDELINE \\- SECOND PHONE NUMBER"
+    },
+    {
+        "name": "app",
+        "pattern": "Sideline \\- Second Phone Number"
+    },
+    {
+        "name": "app",
+        "pattern": "Papa\\'s Burgeria To Go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Papa\\'S Burgeria To Go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "papa\\'s burgeria to go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "PAPA\\'S BURGERIA TO GO\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "STYLEBOOK"
+    },
+    {
+        "name": "app",
+        "pattern": "Stylebook"
+    },
+    {
+        "name": "app",
+        "pattern": "stylebook"
+    },
+    {
+        "name": "app",
+        "pattern": "Walmart – Shopping and Saving"
+    },
+    {
+        "name": "app",
+        "pattern": "WALMART – SHOPPING AND SAVING"
+    },
+    {
+        "name": "app",
+        "pattern": "walmart – shopping and saving"
+    },
+    {
+        "name": "app",
+        "pattern": "Walmart – Shopping And Saving"
+    },
+    {
+        "name": "app",
+        "pattern": "BITMOJI"
+    },
+    {
+        "name": "app",
+        "pattern": "bitmoji"
+    },
+    {
+        "name": "app",
+        "pattern": "Bitmoji"
+    },
+    {
+        "name": "app",
+        "pattern": "SNAKE VS BLOCK"
+    },
+    {
+        "name": "app",
+        "pattern": "Snake VS Block"
+    },
+    {
+        "name": "app",
+        "pattern": "Snake Vs Block"
+    },
+    {
+        "name": "app",
+        "pattern": "snake vs block"
+    },
+    {
+        "name": "app",
+        "pattern": "DROPBOX"
+    },
+    {
+        "name": "app",
+        "pattern": "dropbox"
+    },
+    {
+        "name": "app",
+        "pattern": "Dropbox"
+    },
+    {
+        "name": "app",
+        "pattern": "8 BALL POOL™"
+    },
+    {
+        "name": "app",
+        "pattern": "8 ball pool™"
+    },
+    {
+        "name": "app",
+        "pattern": "8 Ball Pool™"
+    },
+    {
+        "name": "app",
+        "pattern": "Papa\\'S Cupcakeria To Go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Papa\\'s Cupcakeria To Go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "papa\\'s cupcakeria to go\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "PAPA\\'S CUPCAKERIA TO GO\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "cashman casino vegas slot game"
+    },
+    {
+        "name": "app",
+        "pattern": "CASHMAN CASINO VEGAS SLOT GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "Cashman Casino Vegas Slot Game"
+    },
+    {
+        "name": "app",
+        "pattern": "King Of Avalon\\: Dragon Warfare"
+    },
+    {
+        "name": "app",
+        "pattern": "KING OF AVALON\\: DRAGON WARFARE"
+    },
+    {
+        "name": "app",
+        "pattern": "king of avalon\\: dragon warfare"
+    },
+    {
+        "name": "app",
+        "pattern": "King of Avalon\\: Dragon Warfare"
+    },
+    {
+        "name": "app",
+        "pattern": "doubleu casino\\: vegas slots"
+    },
+    {
+        "name": "app",
+        "pattern": "Doubleu Casino\\: Vegas Slots"
+    },
+    {
+        "name": "app",
+        "pattern": "DOUBLEU CASINO\\: VEGAS SLOTS"
+    },
+    {
+        "name": "app",
+        "pattern": "DoubleU Casino\\: Vegas Slots"
+    },
+    {
+        "name": "app",
+        "pattern": "zynga poker \\- texas holdem"
+    },
+    {
+        "name": "app",
+        "pattern": "ZYNGA POKER \\- TEXAS HOLDEM"
+    },
+    {
+        "name": "app",
+        "pattern": "Zynga Poker \\- Texas Holdem"
+    },
+    {
+        "name": "app",
+        "pattern": "Caesars Casino Official Slots"
+    },
+    {
+        "name": "app",
+        "pattern": "CAESARS CASINO OFFICIAL SLOTS"
+    },
+    {
+        "name": "app",
+        "pattern": "caesars casino official slots"
+    },
+    {
+        "name": "app",
+        "pattern": "scribblenauts remix"
+    },
+    {
+        "name": "app",
+        "pattern": "Scribblenauts Remix"
+    },
+    {
+        "name": "app",
+        "pattern": "SCRIBBLENAUTS REMIX"
+    },
+    {
+        "name": "app",
+        "pattern": "eBay\\: Buy \\& Sell \\- Find Deals"
+    },
+    {
+        "name": "app",
+        "pattern": "ebay\\: buy \\& sell \\- find deals"
+    },
+    {
+        "name": "app",
+        "pattern": "EBAY\\: BUY \\& SELL \\- FIND DEALS"
+    },
+    {
+        "name": "app",
+        "pattern": "Ebay\\: Buy \\& Sell \\- Find Deals"
+    },
+    {
+        "name": "app",
+        "pattern": "Ski Tracks"
+    },
+    {
+        "name": "app",
+        "pattern": "SKI TRACKS"
+    },
+    {
+        "name": "app",
+        "pattern": "ski tracks"
+    },
+    {
+        "name": "app",
+        "pattern": "UBER"
+    },
+    {
+        "name": "app",
+        "pattern": "uber"
+    },
+    {
+        "name": "app",
+        "pattern": "Uber"
+    },
+    {
+        "name": "app",
+        "pattern": "PLANTSNAP PLANT IDENTIFICATION"
+    },
+    {
+        "name": "app",
+        "pattern": "Plantsnap Plant Identification"
+    },
+    {
+        "name": "app",
+        "pattern": "PlantSnap Plant Identification"
+    },
+    {
+        "name": "app",
+        "pattern": "plantsnap plant identification"
+    },
+    {
+        "name": "app",
+        "pattern": "FLIPAGRAM"
+    },
+    {
+        "name": "app",
+        "pattern": "Flipagram"
+    },
+    {
+        "name": "app",
+        "pattern": "flipagram"
+    },
+    {
+        "name": "app",
+        "pattern": "Credit Karma"
+    },
+    {
+        "name": "app",
+        "pattern": "credit karma"
+    },
+    {
+        "name": "app",
+        "pattern": "CREDIT KARMA"
+    },
+    {
+        "name": "app",
+        "pattern": "the sims™ freeplay"
+    },
+    {
+        "name": "app",
+        "pattern": "The Sims™ FreePlay"
+    },
+    {
+        "name": "app",
+        "pattern": "The Sims™ Freeplay"
+    },
+    {
+        "name": "app",
+        "pattern": "THE SIMS™ FREEPLAY"
+    },
+    {
+        "name": "app",
+        "pattern": "dark sky weather"
+    },
+    {
+        "name": "app",
+        "pattern": "Dark Sky Weather"
+    },
+    {
+        "name": "app",
+        "pattern": "DARK SKY WEATHER"
+    },
+    {
+        "name": "app",
+        "pattern": "MERGE DRAGONS\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "Merge Dragons\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "merge dragons\\!"
+    },
+    {
+        "name": "app",
+        "pattern": "facetune"
+    },
+    {
+        "name": "app",
+        "pattern": "FACETUNE"
+    },
+    {
+        "name": "app",
+        "pattern": "Facetune"
+    },
+    {
+        "name": "app",
+        "pattern": "TONALENERGY TUNER \\& METRONOME"
+    },
+    {
+        "name": "app",
+        "pattern": "tonalenergy tuner \\& metronome"
+    },
+    {
+        "name": "app",
+        "pattern": "TonalEnergy Tuner \\& Metronome"
+    },
+    {
+        "name": "app",
+        "pattern": "Tonalenergy Tuner \\& Metronome"
+    },
+    {
+        "name": "app",
+        "pattern": "CASH\\, INC\\. FAME \\& FORTUNE GAME"
+    },
+    {
+        "name": "app",
+        "pattern": "cash\\, inc\\. fame \\& fortune game"
+    },
+    {
+        "name": "app",
+        "pattern": "Cash\\, Inc\\. Fame \\& Fortune Game"
+    },
+    {
+        "name": "app",
+        "pattern": "HAY DAY"
+    },
+    {
+        "name": "app",
+        "pattern": "Hay Day"
+    },
+    {
+        "name": "app",
+        "pattern": "hay day"
+    },
+    {
+        "name": "app",
+        "pattern": "plague inc\\."
+    },
+    {
+        "name": "app",
+        "pattern": "PLAGUE INC\\."
+    },
+    {
+        "name": "app",
+        "pattern": "Plague Inc\\."
+    },
+    {
+        "name": "app",
+        "pattern": "space by thix"
+    },
+    {
+        "name": "app",
+        "pattern": "Space By Thix"
+    },
+    {
+        "name": "app",
+        "pattern": "SPACE BY THIX"
+    },
+    {
+        "name": "app",
+        "pattern": "SPACE by THIX"
+    },
+    {
+        "name": "app",
+        "pattern": "Paintball Arena Challenge"
+    },
+    {
+        "name": "app",
+        "pattern": "PAINTBALL ARENA CHALLENGE"
+    },
+    {
+        "name": "app",
+        "pattern": "paintball arena challenge"
+    },
+    {
+        "name": "app",
+        "pattern": "SLOT MACHINES \\- HUUUGE CASINO"
+    },
+    {
+        "name": "app",
+        "pattern": "slot machines \\- huuuge casino"
+    },
+    {
+        "name": "app",
+        "pattern": "Slot Machines \\- Huuuge Casino"
+    },
+    {
+        "name": "app",
+        "pattern": "LinkedIn"
+    },
+    {
+        "name": "app",
+        "pattern": "linkedin"
+    },
+    {
+        "name": "app",
+        "pattern": "LINKEDIN"
+    },
+    {
+        "name": "app",
+        "pattern": "Linkedin"
+    },
+    {
+        "name": "app",
+        "pattern": "Dragon Ball Z Dokkan Battle"
+    },
+    {
+        "name": "app",
+        "pattern": "DRAGON BALL Z DOKKAN BATTLE"
+    },
+    {
+        "name": "app",
+        "pattern": "dragon ball z dokkan battle"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights at Freddy\\'s 2"
+    },
+    {
+        "name": "app",
+        "pattern": "FIVE NIGHTS AT FREDDY\\'S 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Five Nights At Freddy\\'S 2"
+    },
+    {
+        "name": "app",
+        "pattern": "five nights at freddy\\'s 2"
+    },
+    {
+        "name": "app",
+        "pattern": "Farming Simulator 18"
+    },
+    {
+        "name": "app",
+        "pattern": "farming simulator 18"
+    },
+    {
+        "name": "app",
+        "pattern": "FARMING SIMULATOR 18"
+    },
+    {
+        "name": "app",
+        "pattern": "BALDUR\\'S GATE"
+    },
+    {
+        "name": "app",
+        "pattern": "Baldur\\'s Gate"
+    },
+    {
+        "name": "app",
+        "pattern": "baldur\\'s gate"
+    },
+    {
+        "name": "app",
+        "pattern": "Baldur\\'S Gate"
+    },
+    {
+        "name": "app",
+        "pattern": "KetoDiet"
+    },
+    {
+        "name": "app",
+        "pattern": "ketodiet"
+    },
+    {
+        "name": "app",
+        "pattern": "KETODIET"
+    },
+    {
+        "name": "app",
+        "pattern": "Ketodiet"
+    },
+    {
+        "name": "app",
+        "pattern": "cookie jam \\- match 3 games"
+    },
+    {
+        "name": "app",
+        "pattern": "COOKIE JAM \\- MATCH 3 GAMES"
+    },
+    {
+        "name": "app",
+        "pattern": "Cookie Jam \\- Match 3 Games"
+    },
+    {
+        "name": "app",
+        "pattern": "BIKE RACE\\: MOTORCYCLE RACING"
+    },
+    {
+        "name": "app",
+        "pattern": "bike race\\: motorcycle racing"
+    },
+    {
+        "name": "app",
+        "pattern": "Bike Race\\: Motorcycle Racing"
+    },
+    {
+        "name": "app",
+        "pattern": "Lyft"
+    },
+    {
+        "name": "app",
+        "pattern": "LYFT"
+    },
+    {
+        "name": "app",
+        "pattern": "lyft"
+    },
+    {
+        "name": "app",
+        "pattern": "Myfitnesspal"
+    },
+    {
+        "name": "app",
+        "pattern": "MyFitnessPal"
+    },
+    {
+        "name": "app",
+        "pattern": "MYFITNESSPAL"
+    },
+    {
+        "name": "app",
+        "pattern": "myfitnesspal"
+    },
+    {
+        "name": "app",
+        "pattern": "google photos"
+    },
+    {
+        "name": "app",
+        "pattern": "GOOGLE PHOTOS"
+    },
+    {
+        "name": "app",
+        "pattern": "Google Photos"
+    },
+    {
+        "name": "app",
+        "pattern": "GETTING OVER IT"
+    },
+    {
+        "name": "app",
+        "pattern": "Getting Over It"
+    },
+    {
+        "name": "app",
+        "pattern": "getting over it"
+    },
+    {
+        "name": "numrank",
+        "pattern": "1"
+    },
+    {
+        "name": "numrank",
+        "pattern": "2"
+    },
+    {
+        "name": "numrank",
+        "pattern": "3"
+    },
+    {
+        "name": "numrank",
+        "pattern": "4"
+    },
+    {
+        "name": "numrank",
+        "pattern": "5"
+    },
+    {
+        "name": "numrank",
+        "pattern": "6"
+    },
+    {
+        "name": "numrank",
+        "pattern": "7"
+    },
+    {
+        "name": "numrank",
+        "pattern": "8"
+    },
+    {
+        "name": "numrank",
+        "pattern": "9"
+    },
+    {
+        "name": "numrank",
+        "pattern": "10"
+    },
+    {
+        "name": "numrank",
+        "pattern": "11"
+    },
+    {
+        "name": "numrank",
+        "pattern": "12"
+    },
+    {
+        "name": "numrank",
+        "pattern": "13"
+    },
+    {
+        "name": "numrank",
+        "pattern": "14"
+    },
+    {
+        "name": "numrank",
+        "pattern": "15"
+    },
+    {
+        "name": "numrank",
+        "pattern": "16"
+    },
+    {
+        "name": "numrank",
+        "pattern": "17"
+    },
+    {
+        "name": "numrank",
+        "pattern": "18"
+    },
+    {
+        "name": "numrank",
+        "pattern": "19"
+    },
+    {
+        "name": "numrank",
+        "pattern": "20"
+    },
+    {
+        "name": "numrank",
+        "pattern": "21"
+    },
+    {
+        "name": "numrank",
+        "pattern": "22"
+    },
+    {
+        "name": "numrank",
+        "pattern": "23"
+    },
+    {
+        "name": "numrank",
+        "pattern": "24"
+    },
+    {
+        "name": "numrank",
+        "pattern": "25"
+    },
+    {
+        "name": "numrank",
+        "pattern": "26"
+    },
+    {
+        "name": "numrank",
+        "pattern": "27"
+    },
+    {
+        "name": "numrank",
+        "pattern": "28"
+    },
+    {
+        "name": "numrank",
+        "pattern": "29"
+    },
+    {
+        "name": "numrank",
+        "pattern": "30"
+    },
+    {
+        "name": "numrank",
+        "pattern": "31"
+    },
+    {
+        "name": "numrank",
+        "pattern": "32"
+    },
+    {
+        "name": "numrank",
+        "pattern": "33"
+    },
+    {
+        "name": "numrank",
+        "pattern": "34"
+    },
+    {
+        "name": "numrank",
+        "pattern": "35"
+    },
+    {
+        "name": "numrank",
+        "pattern": "36"
+    },
+    {
+        "name": "numrank",
+        "pattern": "37"
+    },
+    {
+        "name": "numrank",
+        "pattern": "38"
+    },
+    {
+        "name": "numrank",
+        "pattern": "39"
+    },
+    {
+        "name": "numrank",
+        "pattern": "40"
+    },
+    {
+        "name": "numrank",
+        "pattern": "41"
+    },
+    {
+        "name": "numrank",
+        "pattern": "42"
+    },
+    {
+        "name": "numrank",
+        "pattern": "43"
+    },
+    {
+        "name": "numrank",
+        "pattern": "44"
+    },
+    {
+        "name": "numrank",
+        "pattern": "45"
+    },
+    {
+        "name": "numrank",
+        "pattern": "46"
+    },
+    {
+        "name": "numrank",
+        "pattern": "47"
+    },
+    {
+        "name": "numrank",
+        "pattern": "48"
+    },
+    {
+        "name": "numrank",
+        "pattern": "49"
+    },
+    {
+        "name": "numrank",
+        "pattern": "50"
+    },
+    {
+        "name": "numrank",
+        "pattern": "51"
+    },
+    {
+        "name": "numrank",
+        "pattern": "52"
+    },
+    {
+        "name": "numrank",
+        "pattern": "53"
+    },
+    {
+        "name": "numrank",
+        "pattern": "54"
+    },
+    {
+        "name": "numrank",
+        "pattern": "55"
+    },
+    {
+        "name": "numrank",
+        "pattern": "56"
+    },
+    {
+        "name": "numrank",
+        "pattern": "57"
+    },
+    {
+        "name": "numrank",
+        "pattern": "58"
+    },
+    {
+        "name": "numrank",
+        "pattern": "59"
+    },
+    {
+        "name": "numrank",
+        "pattern": "60"
+    },
+    {
+        "name": "numrank",
+        "pattern": "61"
+    },
+    {
+        "name": "numrank",
+        "pattern": "62"
+    },
+    {
+        "name": "numrank",
+        "pattern": "63"
+    },
+    {
+        "name": "numrank",
+        "pattern": "64"
+    },
+    {
+        "name": "numrank",
+        "pattern": "65"
+    },
+    {
+        "name": "numrank",
+        "pattern": "66"
+    },
+    {
+        "name": "numrank",
+        "pattern": "67"
+    },
+    {
+        "name": "numrank",
+        "pattern": "68"
+    },
+    {
+        "name": "numrank",
+        "pattern": "69"
+    },
+    {
+        "name": "numrank",
+        "pattern": "70"
+    },
+    {
+        "name": "numrank",
+        "pattern": "71"
+    },
+    {
+        "name": "numrank",
+        "pattern": "72"
+    },
+    {
+        "name": "numrank",
+        "pattern": "73"
+    },
+    {
+        "name": "numrank",
+        "pattern": "74"
+    },
+    {
+        "name": "numrank",
+        "pattern": "75"
+    },
+    {
+        "name": "numrank",
+        "pattern": "76"
+    },
+    {
+        "name": "numrank",
+        "pattern": "77"
+    },
+    {
+        "name": "numrank",
+        "pattern": "78"
+    },
+    {
+        "name": "numrank",
+        "pattern": "79"
+    },
+    {
+        "name": "numrank",
+        "pattern": "80"
+    },
+    {
+        "name": "numrank",
+        "pattern": "81"
+    },
+    {
+        "name": "numrank",
+        "pattern": "82"
+    },
+    {
+        "name": "numrank",
+        "pattern": "83"
+    },
+    {
+        "name": "numrank",
+        "pattern": "84"
+    },
+    {
+        "name": "numrank",
+        "pattern": "85"
+    },
+    {
+        "name": "numrank",
+        "pattern": "86"
+    },
+    {
+        "name": "numrank",
+        "pattern": "87"
+    },
+    {
+        "name": "numrank",
+        "pattern": "88"
+    },
+    {
+        "name": "numrank",
+        "pattern": "89"
+    },
+    {
+        "name": "numrank",
+        "pattern": "90"
+    },
+    {
+        "name": "numrank",
+        "pattern": "91"
+    },
+    {
+        "name": "numrank",
+        "pattern": "92"
+    },
+    {
+        "name": "numrank",
+        "pattern": "93"
+    },
+    {
+        "name": "numrank",
+        "pattern": "94"
+    },
+    {
+        "name": "numrank",
+        "pattern": "95"
+    },
+    {
+        "name": "numrank",
+        "pattern": "96"
+    },
+    {
+        "name": "numrank",
+        "pattern": "97"
+    },
+    {
+        "name": "numrank",
+        "pattern": "98"
+    },
+    {
+        "name": "numrank",
+        "pattern": "99"
+    },
+    {
+        "name": "numrank",
+        "pattern": "100"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ten"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ten"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eleven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eleven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ELEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twelve"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWELVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twelve"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTEEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fourteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fourteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FOURTEEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTEEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTEEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventeen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventeen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTEEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTEEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Nineteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "nineteen"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETEEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY\\-TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty\\-Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty\\-two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY\\-FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty\\-Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty\\-four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty\\-five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty\\-Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY\\-FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty\\-Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY\\-SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty\\-seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty\\-Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY\\-EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty\\-eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "TWENTY\\-NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Twenty\\-Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "twenty\\-nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty\\-One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY\\-ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty\\-one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY\\-TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty\\-Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty\\-two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty\\-three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty\\-Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY\\-THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty\\-six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY\\-SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty\\-Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty\\-Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty\\-seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY\\-SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty\\-Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty\\-eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY\\-EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Thirty\\-Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "thirty\\-nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "THIRTY\\-NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty\\-five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty\\-Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY\\-FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty\\-Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty\\-six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY\\-SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "forty nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Forty Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FORTY NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty\\-One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY\\-ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty\\-one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY\\-TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty\\-Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty\\-two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty\\-Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty\\-three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY\\-THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY\\-FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty\\-four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty\\-Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty\\-six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty\\-Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY\\-SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty\\-eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty\\-Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY\\-EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "fifty\\-nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Fifty\\-Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "FIFTY\\-NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty\\-one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY\\-ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty\\-One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY\\-SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty\\-Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty\\-seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty\\-Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY\\-EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty\\-eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SIXTY NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "sixty nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Sixty Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy\\-One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY\\-ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy\\-one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy\\-six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy\\-Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY\\-SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy\\-seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY\\-SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy\\-Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy\\-eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy\\-Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY\\-EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Seventy\\-Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "seventy\\-nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "SEVENTY\\-NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty\\-Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty\\-three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY\\-THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty\\-four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY\\-FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty\\-Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty\\-seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY\\-SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty\\-Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "eighty\\-nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Eighty\\-Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "EIGHTY\\-NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY\\-ONE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety\\-one"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety\\-One"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety\\-Two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety\\-two"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY\\-TWO"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety\\-three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY\\-THREE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety\\-Three"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY\\-FOUR"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety\\-four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety\\-Four"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety\\-Five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety\\-five"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY\\-FIVE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety Six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY SIX"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety six"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety\\-Seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety\\-seven"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY\\-SEVEN"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety Eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety eight"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY EIGHT"
+    },
+    {
+        "name": "numrank",
+        "pattern": "Ninety Nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "NINETY NINE"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ninety nine"
+    },
+    {
+        "name": "numrank",
+        "pattern": "One Hundred"
+    },
+    {
+        "name": "numrank",
+        "pattern": "ONE HUNDRED"
+    },
+    {
+        "name": "numrank",
+        "pattern": "one hundred"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "1st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "1ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "1St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "2ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "2nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "2Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "3Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "3RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "3rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "4th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "4TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "4Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "5Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "5TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "5th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "6TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "6th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "6Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "7Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "7TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "7th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "8TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "8th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "8Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "9Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "9th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "9TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "10Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "10th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "10TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "11st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "11St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "11ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "12nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "12Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "12ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "13RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "13Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "13rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "14th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "14Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "14TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "15Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "15th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "15TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "16th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "16TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "16Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "17Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "17TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "17th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "18th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "18TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "18Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "19Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "19th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "19TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "20th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "20Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "20TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "21St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "21ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "21st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "22ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "22Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "22nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "23RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "23rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "23Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "24Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "24TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "24th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "25th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "25Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "25TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "26TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "26th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "26Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "27TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "27Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "27th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "28th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "28Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "28TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "29TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "29Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "29th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "30TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "30Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "30th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "31ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "31st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "31St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "32ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "32Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "32nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "33rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "33Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "33RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "34Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "34th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "34TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "35th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "35TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "35Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "36TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "36th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "36Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "37th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "37TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "37Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "38th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "38Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "38TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "39th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "39Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "39TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "40Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "40th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "40TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "41St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "41st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "41ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "42nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "42Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "42ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "43rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "43Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "43RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "44TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "44Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "44th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "45th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "45Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "45TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "46TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "46th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "46Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "47TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "47Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "47th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "48th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "48TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "48Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "49Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "49TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "49th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "50th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "50Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "50TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "51st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "51ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "51St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "52ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "52nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "52Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "53rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "53RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "53Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "54Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "54th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "54TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "55TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "55Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "55th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "56TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "56Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "56th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "57th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "57TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "57Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "58th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "58TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "58Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "59th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "59Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "59TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "60Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "60th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "60TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "61st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "61ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "61St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "62Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "62nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "62ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "63RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "63Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "63rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "64Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "64th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "64TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "65TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "65th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "65Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "66Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "66TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "66th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "67th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "67Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "67TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "68th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "68Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "68TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "69th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "69TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "69Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "70th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "70Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "70TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "71st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "71St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "71ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "72nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "72ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "72Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "73Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "73rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "73RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "74TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "74th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "74Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "75TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "75th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "75Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "76TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "76th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "76Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "77th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "77TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "77Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "78Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "78th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "78TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "79th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "79Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "79TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "80TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "80Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "80th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "81st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "81ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "81St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "82Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "82ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "82nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "83Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "83RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "83rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "84Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "84th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "84TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "85th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "85Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "85TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "86TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "86Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "86th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "87Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "87th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "87TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "88TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "88th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "88Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "89th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "89TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "89Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "90Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "90TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "90th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "91St"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "91ST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "91st"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "92nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "92Nd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "92ND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "93Rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "93RD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "93rd"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "94th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "94Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "94TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "95TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "95Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "95th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "96Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "96TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "96th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "97Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "97th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "97TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "98TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "98th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "98Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "99th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "99Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "99TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "100Th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "100th"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "100TH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "first"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "First"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "FIRST"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "SECOND"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "second"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Second"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "THIRD"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Third"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "third"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "fourth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Fourth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "FOURTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Fifth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "fifth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "FIFTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Sixth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "sixth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "SIXTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Seventh"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "SEVENTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "seventh"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "eighth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "EIGHTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Eighth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "NINTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Ninth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "ninth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "TENTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Tenth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "tenth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "eleventh"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "ELEVENTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Eleventh"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "twelfth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "TWELFTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Twelfth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Thirteenth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "THIRTEENTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "thirteenth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "FOURTEENTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Fourteenth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "fourteenth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "FIFTEENTH"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "fifteenth"
+    },
+    {
+        "name": "ordrank",
+        "pattern": "Fifteenth"
+    },
+    {
+        "name": "genre",
+        "pattern": "Reference"
+    },
+    {
+        "name": "genre",
+        "pattern": "REFERENCE"
+    },
+    {
+        "name": "genre",
+        "pattern": "reference"
+    },
+    {
+        "name": "genre",
+        "pattern": "PHOTO \\& VIDEO"
+    },
+    {
+        "name": "genre",
+        "pattern": "Photo \\& Video"
+    },
+    {
+        "name": "genre",
+        "pattern": "photo \\& video"
+    },
+    {
+        "name": "genre",
+        "pattern": "music"
+    },
+    {
+        "name": "genre",
+        "pattern": "MUSIC"
+    },
+    {
+        "name": "genre",
+        "pattern": "Music"
+    },
+    {
+        "name": "genre",
+        "pattern": "TRAVEL"
+    },
+    {
+        "name": "genre",
+        "pattern": "travel"
+    },
+    {
+        "name": "genre",
+        "pattern": "Travel"
+    },
+    {
+        "name": "genre",
+        "pattern": "Entertainment"
+    },
+    {
+        "name": "genre",
+        "pattern": "ENTERTAINMENT"
+    },
+    {
+        "name": "genre",
+        "pattern": "entertainment"
+    },
+    {
+        "name": "genre",
+        "pattern": "Games"
+    },
+    {
+        "name": "genre",
+        "pattern": "GAMES"
+    },
+    {
+        "name": "genre",
+        "pattern": "games"
+    },
+    {
+        "name": "genre",
+        "pattern": "Shopping"
+    },
+    {
+        "name": "genre",
+        "pattern": "shopping"
+    },
+    {
+        "name": "genre",
+        "pattern": "SHOPPING"
+    },
+    {
+        "name": "genre",
+        "pattern": "health \\& fitness"
+    },
+    {
+        "name": "genre",
+        "pattern": "Health \\& Fitness"
+    },
+    {
+        "name": "genre",
+        "pattern": "HEALTH \\& FITNESS"
+    },
+    {
+        "name": "genre",
+        "pattern": "lifestyle"
+    },
+    {
+        "name": "genre",
+        "pattern": "LIFESTYLE"
+    },
+    {
+        "name": "genre",
+        "pattern": "Lifestyle"
+    },
+    {
+        "name": "genre",
+        "pattern": "Utilities"
+    },
+    {
+        "name": "genre",
+        "pattern": "utilities"
+    },
+    {
+        "name": "genre",
+        "pattern": "UTILITIES"
+    },
+    {
+        "name": "genre",
+        "pattern": "NAVIGATION"
+    },
+    {
+        "name": "genre",
+        "pattern": "Navigation"
+    },
+    {
+        "name": "genre",
+        "pattern": "navigation"
+    },
+    {
+        "name": "genre",
+        "pattern": "medical"
+    },
+    {
+        "name": "genre",
+        "pattern": "MEDICAL"
+    },
+    {
+        "name": "genre",
+        "pattern": "Medical"
+    },
+    {
+        "name": "genre",
+        "pattern": "Social Networking"
+    },
+    {
+        "name": "genre",
+        "pattern": "SOCIAL NETWORKING"
+    },
+    {
+        "name": "genre",
+        "pattern": "social networking"
+    },
+    {
+        "name": "genre",
+        "pattern": "productivity"
+    },
+    {
+        "name": "genre",
+        "pattern": "Productivity"
+    },
+    {
+        "name": "genre",
+        "pattern": "PRODUCTIVITY"
+    },
+    {
+        "name": "genre",
+        "pattern": "finance"
+    },
+    {
+        "name": "genre",
+        "pattern": "Finance"
+    },
+    {
+        "name": "genre",
+        "pattern": "FINANCE"
+    },
+    {
+        "name": "genre",
+        "pattern": "FOOD \\& DRINK"
+    },
+    {
+        "name": "genre",
+        "pattern": "Food \\& Drink"
+    },
+    {
+        "name": "genre",
+        "pattern": "food \\& drink"
+    },
+    {
+        "name": "genre",
+        "pattern": "Weather"
+    },
+    {
+        "name": "genre",
+        "pattern": "WEATHER"
+    },
+    {
+        "name": "genre",
+        "pattern": "weather"
+    },
+    {
+        "name": "genre",
+        "pattern": "Sports"
+    },
+    {
+        "name": "genre",
+        "pattern": "SPORTS"
+    },
+    {
+        "name": "genre",
+        "pattern": "sports"
+    },
+    {
+        "name": "genre",
+        "pattern": "business"
+    },
+    {
+        "name": "genre",
+        "pattern": "BUSINESS"
+    },
+    {
+        "name": "genre",
+        "pattern": "Business"
+    },
+    {
+        "name": "genre",
+        "pattern": "education"
+    },
+    {
+        "name": "genre",
+        "pattern": "EDUCATION"
+    },
+    {
+        "name": "genre",
+        "pattern": "Education"
+    }
+]
